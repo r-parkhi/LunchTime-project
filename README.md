@@ -29,9 +29,9 @@
 
 ### Phase 2
 **Synthesization**
-- [ ] affinity map
+- [x] affinity map
 - [x] user personas - 2
-- [ ] prioritized feature list
+- [x] prioritized feature list
 - [ ] user journey maps
 
 **Wireframing**

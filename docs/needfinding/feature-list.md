@@ -5,12 +5,12 @@
 4. Filling meal that they enjoy
 
 ### MoSCoW Prioritization
-**Must have:**
+**Must have:**  
 - Easy access to menu
-**Should have:**
+**Should have:**  
  - Average wait time that gives an estimate for how long the lunch line will be till there will no longer be one (particularly for those who do NOT sit in the quad) 
-**Could-have:**
+**Could-have:**  
  - Rating/commenting on the food options on the menu to see what the most popular meals are
  - Ability to recommend food options
-**Won’t-have:**
+**Won’t-have:**  
  - Guaranteed food that is most wanted (including fruit/drinks)

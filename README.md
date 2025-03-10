@@ -30,7 +30,7 @@
 ### Phase 2
 **Synthesization**
 - [ ] affinity map
-- [ ] user personas - 2
+- [x] user personas - 2
 - [ ] prioritized feature list
 - [ ] user journey maps
 

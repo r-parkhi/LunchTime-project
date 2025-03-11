@@ -66,11 +66,11 @@ Scenario #1 (Observing people leaving the line after they get their lunch)
 ## Natalie
 Scenario #3 (observing people using the menu)
 1. **Person 1**
-  **Settings**
+ - **Settings**
 - March 10, 2025 (Monday)
 - Mr. Corman's room
 - Lunchtime
-  **Observations**
+ - **Observations**
   - Searched for "CCA Lunch Menu"
   - Visited the CCA website for Child Nutrition Services
   - Scrolled through the page, struggled to find the link that takes you to the actual menu
@@ -80,11 +80,11 @@ Scenario #3 (observing people using the menu)
   - Found the meal she wanted for the next day.
 
 2. **Person 2**
-  **Settings**
+ - **Settings**
 - March 10, 2025 (Monday)
 - Mr. Corman's room
 - Lunchtime
-  **Observations**
+ - **Observations**
   - Searched for "CCA Lunch Menu"
   - Visited the CCA website for Child Nutrition Services
   - Scrolled through the page
@@ -95,11 +95,11 @@ Scenario #3 (observing people using the menu)
   - Found the meal she wanted for the next day.
  
 3. **Person 3**
-  **Settings**
+ - **Settings**
 - March 10, 2025 (Monday)
 - Mr. Corman's room
 - Lunchtime
-  **Observations**
+ - **Observations**
   - Searched for "CCA Lunch Menu"
   - Visited the CCA website for Child Nutrition Services (took her a couple of mins to find it)
   - Scrolled through the page
@@ -111,11 +111,11 @@ Scenario #3 (observing people using the menu)
   - Found the meal she wanted for the next day.
  
 4. **Person 4**
-  **Settings**
+- **Settings**
 - March 10, 2025 (Monday)
 - Mr. Corman's room
 - Lunchtime
-  **Observations**
+ - **Observations**
   - Searched for "Canyon Crest Academy Lunch Menu"
   - Visited the CCA website for Child Nutrition Services, clicked on another link that took her to a different page instead of the menu page
   - Clicked out of the non-menu page

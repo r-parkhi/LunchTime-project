@@ -21,8 +21,8 @@
     - [x] Eric - 4
 - [x] diary study prompts - 3+
 - [ ] diary studies - 15
-    - [ ] Natalie - 3
-    - [ ] Radhika - 3
+    - [x] Natalie - 3
+    - [x] Radhika - 3
     - [ ] Timothy - 3
     - [ ] Yan - 3
     - [ ] Eric - 3

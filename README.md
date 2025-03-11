@@ -32,7 +32,7 @@
 - [x] affinity map
 - [x] user personas - 2
 - [x] prioritized feature list
-- [ ] user journey maps
+- [x] user journey maps
 
 **Wireframing**
 - [ ] paper layout sketches - 3+

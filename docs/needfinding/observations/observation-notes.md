@@ -29,6 +29,32 @@
   - yes
 
 ## Yan
+### Setting: Middle/end of lunch line
+1. Person 1
+  -  Quickly went through lunch line
+  -  Grabbed juice and fruit
+  -  Type in ID really quick - seems like he's done this many times
+  -  Grabbed fork
+2. Person 2
+  - Got pizza and juice
+  - Went to share bin and got another juice
+  - Went off
+3. Person 3
+  - Got pizza
+  - Put it back and got burrito
+  - Grabbed juice
+  - Typed in id slowish
+4. Person 4
+  - Tried to look past line to what was served
+  - Walked to salad
+  - Got fruit
+  - Put in pin
+  - Walked off
+5. Person 5
+  - Standing in line on phone
+  - Moved when line moved
+  - Looked around past people to see what was being served
+  - Picked up pizza
 ## Radhika
 ## Timothy
 Scenario #1 (Observing people leaving the line after they get their lunch)

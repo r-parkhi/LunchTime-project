@@ -1,6 +1,10 @@
 # Observation Scenarios
 
-*At breakfast and lunch time*
+**Time**
+- Breakfast
+- Lunch
+
+**Setting**
 - Observing outside of cafeteria
 - Observing inside cafeteria
 - Observing lunch line

@@ -1,4 +1,5 @@
 ## Eric
+### Setting: end of lunch line w/ lunch
 1. Person 1
 - What did they take?
   - Apple, chicken sandwich 
@@ -91,7 +92,7 @@ Setting: in class
 - Eats a snack from home
 
 ## Timothy
-Scenario #1 (Observing people leaving the line after they get their lunch)
+### Scenario #1 (Observing people leaving the line after they get their lunch)
 
 1. **Person 1**
   - **Setting**
@@ -122,6 +123,19 @@ Scenario #1 (Observing people leaving the line after they get their lunch)
   	- Grabbed salad box
   	- Grabbed utensils from bin to their right
     - Walked off
+### Scenario #2 (Observing people using the app)
+
+4. **Person 4**
+  - **Setting**
+    - about halfway through lunch
+    - March. 10 2025
+    - Outside F building
+  - **Observations**	
+    - Started on https://www.schoolnutritionandfitness.com/index.php?sid=2011131648587358&page=menus# tab and clicked on “Contact Us” tab at the top
+    - Scrolled down on the “Contact Us” 
+    - Attempted emailing Director of Nutritional Services
+    - Restarted on https://www.schoolnutritionandfitness.com/webmenus2/#/view?id=67bcd5577d00f6608f4b1a48&siteCode=1637 tab and told to find what lunch is
+    - Verbally said the tab was ugly
 
 ## Natalie
 Scenario #3 (observing people using the menu)

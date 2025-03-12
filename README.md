@@ -13,9 +13,9 @@
     - [ ] Eric - 5
 - [ ] interviews summary
 - [x] observation scenarios - 3+
-- [ ] observations - 20
+- [x] observations - 20
     - [x] Natalie - 4
-    - [ ] Radhika - 4
+    - [x] Radhika - 4
     - [x] Timothy - 4
     - [x] Yan - 4
     - [x] Eric - 4

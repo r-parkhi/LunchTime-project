@@ -10,7 +10,7 @@
     - [x] Radhika - 5
     - [x] Timothy - 5
     - [x] Yan - 5
-    - [ ] Eric - 5
+    - [x] Eric - 5
 - [ ] interviews summary
 - [x] observation scenarios - 3+
 - [x] observations - 20

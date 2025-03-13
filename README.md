@@ -36,4 +36,4 @@
 - [ ] final needfinding report
 
 **Wireframing**
-- [ ] Figma low-fi wireframe
+- [x] Figma low-fi wireframe

@@ -35,8 +35,15 @@
 
 **Interview 7**
 - Gets lunch everyday because it is free and they don't want to pack their own lunch
--Believed that amount of people cutting the line is a problem
+- Believed that amount of people cutting the line is a problem
 - Believes that some items on the menu are too sugary
+
+**Interview 8/9**  
+_(2 people responding at once)_
+- Gets school lunch because they don’t want to bring their own
+- Sometimes knows what is served by recognizing patterns of the lunch
+- Believes that the lunch line is chaotic and they can benefit from knowing the wait times
+- Concerned about smallportion sizes of the lunch 
 
 
 ## Radhika

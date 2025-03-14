@@ -5,13 +5,13 @@
 **Needfinding**
 - [x] survey - 50
 - [x] interview questions - 5+
-- [ ] interviews - 25
+- [x] interviews - 25
     - [x] Natalie - 5
     - [x] Radhika - 5
     - [x] Timothy - 5
     - [x] Yan - 5
     - [x] Eric - 5
-- [ ] interviews summary
+- [x] interviews summary
 - [x] observation scenarios - 3+
 - [x] observations - 20
     - [x] Natalie - 4
@@ -24,7 +24,7 @@
     - [x] Natalie - 3
     - [x] Radhika - 3
     - [x] Timothy - 3
-    - [ ] Yan - 3
+    - [x] Yan - 3
     - [ ] Eric - 3
 
 ### Phase 2

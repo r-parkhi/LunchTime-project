@@ -1,4 +1,4 @@
-# team-name-project
+# LunchTime-project
 
 ## Team Checklist
 ### Phase 1

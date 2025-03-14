@@ -33,7 +33,7 @@
 - [x] user personas - 2
 - [x] prioritized feature list
 - [x] user journey maps
-- [ ] final needfinding report
+- [x] final needfinding report
 
 **Wireframing**
 - [x] Figma low-fi wireframe

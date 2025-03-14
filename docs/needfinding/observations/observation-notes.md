@@ -56,7 +56,41 @@
   - Moved when line moved
   - Looked around past people to see what was being served
   - Picked up pizza
+
 ## Radhika
+**1. Person 1**  
+Date: 3/10  
+Time: breakfast  
+Setting: outside cafeteria  
+- Person asks if there’s enough time to get breakfast
+- Grabs cereal (cinnamon Chex)
+- Runs from the line to class
+
+**2. Person 2**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs PB&J sandwich and fruit
+- Puts fruit into share bin
+- Asks for snack from a friend
+
+**3. Person 3**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs chicken caesar salad & utensils
+- Eats most of their lunch then throws the rest away
+
+**4. Person 4**  
+Date: 3/11  
+Time: breakfast  
+Setting: in class  
+- Person grabs cereal (Cheerios)
+- Shares with classmates
+- Eats a snack from home
+
 ## Timothy
 ### Scenario #1 (Observing people leaving the line after they get their lunch)
 

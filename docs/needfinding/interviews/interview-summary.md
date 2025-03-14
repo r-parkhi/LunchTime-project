@@ -116,3 +116,59 @@ _(2 people responding at once)_
 - Feels like school lunch lines are way too long
 - Would benefit from knowing approximate lunch wait times
 - Does not care about nutritional values of foods
+
+## Natalie 
+**Interview 1:**
+- Got lunch everyday because it's her only option, free, and she’s hungry 
+- Did know what the menu was before they entered the line (knew what there was due to fliers outside the lunch building)
+- Said the line was around 10 minutes and said she would benefit from seeing what time the line would end.
+- She did not care about the nutrition
+
+**Interview 2:**
+- Gets school lunch everyday because she likes food options
+- Knew what was being served by looking at the signs/fliers outside the cafeteria.
+- Said the lunch line was around a 10 minute wait, would benefit from timing in order to plan what time to go get lunch.
+- Cares about the nutritional value of the food served. 
+
+**Interview 3:** 
+- Gets school lunch everyday because it is easy and free. 
+- Only slightly knows what is served before lunch because some items on the menu are served everyday, however he does not know what is being served most of the time.
+- He would get the food either way, but said he would still benefit from knowing what is served everyday
+- Says the line is long and there are people who cut the line, but he typically waits till the line is gone. He said he would not benefit from knowing the wait time for the lunch line as he waits it out.
+- He is sometimes concerned with the nutritional value of the lunch options
+
+**Interview 4:**
+- Gets lunch occasionally and gets it whenever they are serving good food
+- Does not know what is served each day and said it would benefit him 
+- Said the lunch line is long and that he would benefit from knowing how much food was left compared to the lunch wait times
+- Did not care about the nutrition of the school food. 
+
+**Interview 5:**
+- Gets school food once or twice a week and gets it when her mom did not pack a lunch
+- Did not know what was served each day and said she would benefit from knowing
+- Normally waits out the line because it’s long; said she would benefit from knowing how long the wait time is for the lunch line.
+- Said she did care about the nutrition, but that she would still eat it. 
+
+**Interview 6:**
+- Does not get school lunch often, typically once a month
+- Kind of knew what was served but mostly no, said she would benefit from knowing the lunch menu before entering the line
+- Lunch line is long, said she would potentially benefit from knowing the wait times and that it would make her get school lunch more often
+- Concerned about the nutritional value of the school food. 
+
+**Interview 7:**
+- Gets school lunch twice a week when she does not bring enough food
+- Said she would benefit from knowing what is served daily but does not know what is being served each day
+- Goes to get food once the lunch line has emptied out and said it would benefit her and others at the school 
+- Slightly concerned about the nutritional value of the school lunch food
+
+**Interview 8:**
+- Gets school lunch everyday because she likes the food options
+- Does not know what food is served before going to the line, said she would benefit
+- Said the line was very bad and would benefit from knowing a wait time as well as getting more school lunch
+- Somewhat cares about the nutrition in the school food. 
+**Interview 9:**
+- Gets school 3 times a week when she did not bring her own lunch
+- Is not aware of what the cafeteria is serving and would benefit from knowing.
+- Says the lunch line is really long and would benefit from knowing the timing of the lunch line.
+- Does care about the nutrition of the school lunch. 
+

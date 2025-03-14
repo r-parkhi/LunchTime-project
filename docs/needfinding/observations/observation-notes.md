@@ -1,4 +1,5 @@
 ## Eric
+### Setting: end of lunch line w/ lunch
 1. Person 1
 - What did they take?
   - Apple, chicken sandwich 
@@ -55,9 +56,43 @@
   - Moved when line moved
   - Looked around past people to see what was being served
   - Picked up pizza
+
 ## Radhika
+**1. Person 1**  
+Date: 3/10  
+Time: breakfast  
+Setting: outside cafeteria  
+- Person asks if there’s enough time to get breakfast
+- Grabs cereal (cinnamon Chex)
+- Runs from the line to class
+
+**2. Person 2**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs PB&J sandwich and fruit
+- Puts fruit into share bin
+- Asks for snack from a friend
+
+**3. Person 3**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs chicken caesar salad & utensils
+- Eats most of their lunch then throws the rest away
+
+**4. Person 4**  
+Date: 3/11  
+Time: breakfast  
+Setting: in class  
+- Person grabs cereal (Cheerios)
+- Shares with classmates
+- Eats a snack from home
+
 ## Timothy
-Scenario #1 (Observing people leaving the line after they get their lunch)
+### Scenario #1 (Observing people leaving the line after they get their lunch)
 
 1. **Person 1**
   - **Setting**
@@ -88,5 +123,79 @@ Scenario #1 (Observing people leaving the line after they get their lunch)
   	- Grabbed salad box
   	- Grabbed utensils from bin to their right
     - Walked off
+### Scenario #2 (Observing people using the app)
+
+4. **Person 4**
+  - **Setting**
+    - about halfway through lunch
+    - March. 10 2025
+    - Outside F building
+  - **Observations**	
+    - Started on https://www.schoolnutritionandfitness.com/index.php?sid=2011131648587358&page=menus# tab and clicked on “Contact Us” tab at the top
+    - Scrolled down on the “Contact Us” 
+    - Attempted emailing Director of Nutritional Services
+    - Restarted on https://www.schoolnutritionandfitness.com/webmenus2/#/view?id=67bcd5577d00f6608f4b1a48&siteCode=1637 tab and told to find what lunch is
+    - Verbally said the tab was ugly
 
 ## Natalie
+Scenario #3 (observing people using the menu)
+1. **Person 1**
+ - **Settings**
+- March 10, 2025 (Monday)
+- Mr. Corman's room
+- Lunchtime
+ - **Observations**
+  - Searched for "CCA Lunch Menu"
+  - Visited the CCA website for Child Nutrition Services
+  - Scrolled through the page, struggled to find the link that takes you to the actual menu
+  - Found the link and searched through the Child Services Website
+  - Clicked on the Menu button on the navigation bar
+  - Clicked on the menu link for CCA
+  - Found the meal she wanted for the next day.
+
+2. **Person 2**
+ - **Settings**
+- March 10, 2025 (Monday)
+- Mr. Corman's room
+- Lunchtime
+ - **Observations**
+  - Searched for "CCA Lunch Menu"
+  - Visited the CCA website for Child Nutrition Services
+  - Scrolled through the page
+  - found the link that takes you to the actual menu
+  - Struggled to find the Menu button on the navigation bar (took her a couple of mins to find it)
+  - Clicked on the Menu button on the navigation bar
+  - Clicked on the menu link for CCA
+  - Found the meal she wanted for the next day.
+ 
+3. **Person 3**
+ - **Settings**
+- March 10, 2025 (Monday)
+- Mr. Corman's room
+- Lunchtime
+ - **Observations**
+  - Searched for "CCA Lunch Menu"
+  - Visited the CCA website for Child Nutrition Services (took her a couple of mins to find it)
+  - Scrolled through the page
+  - found the link that takes you to the actual menu
+  - Struggled to find the Menu button on the navigation bar, scrolled past it multiple times
+  - Found the menu bar on the navigation bar
+  - Clicked on the Menu button on the navigation bar
+  - Clicked on the menu link for CCA
+  - Found the meal she wanted for the next day.
+ 
+4. **Person 4**
+- **Settings**
+- March 10, 2025 (Monday)
+- Mr. Corman's room
+- Lunchtime
+ - **Observations**
+  - Searched for "Canyon Crest Academy Lunch Menu"
+  - Visited the CCA website for Child Nutrition Services, clicked on another link that took her to a different page instead of the menu page
+  - Clicked out of the non-menu page
+  - Clicked on the correct page to take her to the menu
+  - Scrolled through the page
+  - Struggled to find the Menu button on the navigation bar
+  - Clicked on the Menu button on the navigation bar (Took a couple of mins to find it)
+  - Clicked on the menu link for CCA
+  - Found the meal she wanted for the next day. 

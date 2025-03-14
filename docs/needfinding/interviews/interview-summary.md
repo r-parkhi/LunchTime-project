@@ -165,7 +165,8 @@ _(2 people responding at once)_
 - Gets school lunch everyday because she likes the food options
 - Does not know what food is served before going to the line, said she would benefit
 - Said the line was very bad and would benefit from knowing a wait time as well as getting more school lunch
-- Somewhat cares about the nutrition in the school food. 
+- Somewhat cares about the nutrition in the school food.
+  
 **Interview 9:**
 - Gets school 3 times a week when she did not bring her own lunch
 - Is not aware of what the cafeteria is serving and would benefit from knowing.

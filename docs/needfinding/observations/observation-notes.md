@@ -1,4 +1,5 @@
 ## Eric
+### Setting: end of lunch line w/ lunch
 1. Person 1
 - What did they take?
   - Apple, chicken sandwich 
@@ -29,9 +30,69 @@
   - yes
 
 ## Yan
+### Setting: Middle/end of lunch line
+1. Person 1
+  -  Quickly went through lunch line
+  -  Grabbed juice and fruit
+  -  Type in ID really quick - seems like he's done this many times
+  -  Grabbed fork
+2. Person 2
+  - Got pizza and juice
+  - Went to share bin and got another juice
+  - Went off
+3. Person 3
+  - Got pizza
+  - Put it back and got burrito
+  - Grabbed juice
+  - Typed in id slowish
+4. Person 4
+  - Tried to look past line to what was served
+  - Walked to salad
+  - Got fruit
+  - Put in pin
+  - Walked off
+5. Person 5
+  - Standing in line on phone
+  - Moved when line moved
+  - Looked around past people to see what was being served
+  - Picked up pizza
+
 ## Radhika
+**1. Person 1**  
+Date: 3/10  
+Time: breakfast  
+Setting: outside cafeteria  
+- Person asks if there’s enough time to get breakfast
+- Grabs cereal (cinnamon Chex)
+- Runs from the line to class
+
+**2. Person 2**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs PB&J sandwich and fruit
+- Puts fruit into share bin
+- Asks for snack from a friend
+
+**3. Person 3**  
+Date: 3/10  
+Time: lunchtime  
+Setting: inside cafeteria  
+- Person waits for the line to clear before going to get lunch
+- Grabs chicken caesar salad & utensils
+- Eats most of their lunch then throws the rest away
+
+**4. Person 4**  
+Date: 3/11  
+Time: breakfast  
+Setting: in class  
+- Person grabs cereal (Cheerios)
+- Shares with classmates
+- Eats a snack from home
+
 ## Timothy
-Scenario #1 (Observing people leaving the line after they get their lunch)
+### Scenario #1 (Observing people leaving the line after they get their lunch)
 
 1. **Person 1**
   - **Setting**
@@ -62,6 +123,19 @@ Scenario #1 (Observing people leaving the line after they get their lunch)
   	- Grabbed salad box
   	- Grabbed utensils from bin to their right
     - Walked off
+### Scenario #2 (Observing people using the app)
+
+4. **Person 4**
+  - **Setting**
+    - about halfway through lunch
+    - March. 10 2025
+    - Outside F building
+  - **Observations**	
+    - Started on https://www.schoolnutritionandfitness.com/index.php?sid=2011131648587358&page=menus# tab and clicked on “Contact Us” tab at the top
+    - Scrolled down on the “Contact Us” 
+    - Attempted emailing Director of Nutritional Services
+    - Restarted on https://www.schoolnutritionandfitness.com/webmenus2/#/view?id=67bcd5577d00f6608f4b1a48&siteCode=1637 tab and told to find what lunch is
+    - Verbally said the tab was ugly
 
 ## Natalie
 Scenario #3 (observing people using the menu)

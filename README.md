@@ -1,7 +1,7 @@
 # LunchTime-project
 
 ## Team Checklist
-### Prototyping
+### Prototyping - Due 3/21
 **App Design**
 - [x] color palette
 - [ ] icon pack

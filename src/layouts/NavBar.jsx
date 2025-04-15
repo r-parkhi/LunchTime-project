@@ -4,11 +4,11 @@ function NavBar(){
 
     <header>
         <ul>
-            <p>Home</p>
-            <p>Calendar</p>
-            <p>About</p>
-            <p>Help</p>
-            <p className="loginbtn">Login</p>
+            <span>Home</span>
+            <span>Calendar</span>
+            <span>About</span>
+            <span>Help</span>
+            <span className="loginbtn">Login</span>
         </ul>
     </header>
 }

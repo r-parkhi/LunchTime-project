@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.menu {
+    display: grid;
+    grid-template-areas: 
+    "sides entrees drinks";
+}
+
+.menu .entrees {
+    color: red;
+}
+.menu .sides {
+    color: green;
+}
+
+.menu .drinks {
+    color: blue;
+}

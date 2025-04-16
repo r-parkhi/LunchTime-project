@@ -1,0 +1,40 @@
+.wrapper {
+  width: 225px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.upsidedown {
+  transform: rotate(180deg);
+}
+
+input {
+  all: unset;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #e28da4;
+  cursor: pointer;
+}
+
+.bg {
+  width: 100%;
+  max-height: 0px;
+  background-color: #e28da450;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.bg.open {
+  max-height: fit-content;
+}

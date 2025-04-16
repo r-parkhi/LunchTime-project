@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { HashRouter, Route, Routes } from "react-router"
 import './index.css'
 import AppLayout from "./layouts/AppLayout.jsx"
-import About from "./pages/About.jsx"
+import About from "./pages/about/About.jsx"
 import Calendar from "./pages/Calendar.jsx"
 import Home from './pages/Home.jsx'
 

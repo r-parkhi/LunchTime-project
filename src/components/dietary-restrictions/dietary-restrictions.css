@@ -16,25 +16,46 @@ button {
   transform: rotate(180deg);
 }
 
-input {
+.cblistwrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cbwrapper {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
   all: unset;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #e28da4;
+  border: 2px solid #e28da4;
+  background-color: #e28da400;
   cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: #e28da4;
 }
 
 .bg {
   width: 100%;
-  max-height: 0px;
+  height: 0px;
   background-color: #e28da450;
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  padding: 1rem 0 1rem 1rem;
+  padding-left: 1.1rem;
 }
 
 .bg.open {
-  max-height: fit-content;
+  height: fit-content;
+}
+
+.checkboxLabel {
+  margin-left: 0.5rem;
+  font-size: 1rem;
 }

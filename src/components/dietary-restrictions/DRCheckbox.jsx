@@ -1,5 +1,8 @@
-export default function DRCheckbox() {
+export default function DRCheckbox({ id, name }) {
   return (
-    <input type="checkbox" />
+    <div id={id} className="cbwrapper">
+      <input className="checkbox" type="checkbox" />
+      <span className="checkboxLabel">{name}</span>
+    </div>
   )
 }

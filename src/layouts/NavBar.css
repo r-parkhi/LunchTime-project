@@ -60,6 +60,7 @@ footer{
     height: 55px;
     justify-content: right;
     background-color: #a6c48a;
+    width: 100vw;
 }
 p.copyRight{
     font-size: 15px;

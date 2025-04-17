@@ -5,7 +5,7 @@ import './index.css'
 import AppLayout from "./layouts/AppLayout.jsx"
 import About from "./pages/About.jsx"
 import Calendar from "./pages/Calendar.jsx"
-import Home from './pages/Home.jsx'
+import Home from './pages/home/Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

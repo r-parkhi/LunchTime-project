@@ -1,9 +1,10 @@
 function QnA({question = "Question", answer = "Answer"}){
     return(
         <div>
-            <h3>Q: {question}</h3>
-            <h3><span>A: </span></h3>      
-            <h4><span>{answer}</span></h4>
+            
+            <p><b>Q: {question}</b></p>
+            <b><span>A: </span></b>
+            <span>{answer}</span>
         </div>
     );
 }

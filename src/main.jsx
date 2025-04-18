@@ -4,7 +4,7 @@ import { HashRouter, Route, Routes } from "react-router"
 import './index.css'
 import AppLayout from "./layouts/AppLayout.jsx"
 import About from "./pages/about/About.jsx"
-import Calendar from "./pages/Calendar.jsx"
+import Calendar from "./pages/calendar/Calendar.jsx"
 import Home from './pages/home/Home.jsx'
 import Help from './pages/help/Help.jsx'
 

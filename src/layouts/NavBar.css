@@ -1,0 +1,71 @@
+/* navbar */
+header{
+    width: 100vw;
+}
+
+ul{
+    all: unset;
+    list-style-type: none;
+}
+div.navbar{
+    display: flex;
+    background-color: #a6c48a;
+    margin-top: 0%;
+    height: 87px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+ }
+ul.navbtns{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+a:-webkit-any-link {
+    padding: 15px;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+}
+.loginbtn{
+    text-align: center;
+    background-color: #CF4D6F;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+ul.logoname{
+    display: flex;
+    justify-content: flex-start;
+}
+img{
+    width: 80px;
+
+}
+h1{
+    color: #36522A;
+}
+/*footer*/
+footer{
+    display: flex;
+    height: 55px;
+    justify-content: right;
+    background-color: #a6c48a;
+    width: 100vw;
+}
+p.copyRight{
+    font-size: 15px;
+    color:#36522A;
+    font-weight: bold;
+    align-self: center;
+    padding: 15px;
+}

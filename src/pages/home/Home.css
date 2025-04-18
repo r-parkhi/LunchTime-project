@@ -1,8 +1,11 @@
 /*images*/
+body {
+    text-align: center;
+}
+
 img {
     border-radius: 5%;
 }
-
 
 /*MENU CONTAINER*/
 .menu {
@@ -10,7 +13,6 @@ img {
     grid-template-areas: 
     "sides entrees drinks";
 }
-
 
 /*ENTREES*/
 .menu .entrees {

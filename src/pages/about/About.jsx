@@ -19,6 +19,3 @@ function About() {
         <strong className="strong">LunchTime!</strong>
       </div>
     </div>
-  )
-}
-export default About

@@ -1,3 +1,4 @@
+
 /* navbar */
 header{
     width: 100vw;
@@ -53,6 +54,10 @@ img{
 }
 h1{
     color: #36522A;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 /*footer*/
 footer{

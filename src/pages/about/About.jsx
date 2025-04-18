@@ -1,7 +1,7 @@
 import "./about.css";
 import Logo from "../../assets/LunchTimeLogo.png";
 
-function About() {
+export default function About() {
   return (
     <div className="container">
       <p>Welcome to <strong>LunchTime!</strong>, a web app designed to keep CCA students informed and excited about their daily lunch options. We provide students with up-to-date menus, nutritional information, and a personalized experience with ratings, favorites, and dietary restriction filters.
@@ -19,3 +19,5 @@ function About() {
         <strong className="strong">LunchTime!</strong>
       </div>
     </div>
+  )
+}

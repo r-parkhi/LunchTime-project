@@ -1,3 +1,4 @@
+/*images*/
 body {
     text-align: center;
 }
@@ -6,19 +7,82 @@ img {
     border-radius: 5%;
 }
 
+/*MENU CONTAINER*/
 .menu {
     display: grid;
     grid-template-areas: 
     "sides entrees drinks";
 }
 
+/*ENTREES*/
 .menu .entrees {
-    color: red;
+    color: #36522A;
+    text-align: center;
 }
-.menu .sides {
-    color: green;
+/*all items*/
+.menu .entreeItems {
+    background-color: #E5EFD2;
+    width: 590px;
+    height: 370px;
+    place-self: center;
+    place-content: center;
+}
+/*special item grid*/
+.menu .special {
+    display: grid;
+    grid-template-columns: 100px;
+    margin-left: 20px;
+}
+/*items*/
+.menu .special > div {
+    padding: 20px;
+}
+/*daily item grid*/
+.menu .daily {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin-top: 30px;
+    place-content: center;
 }
 
+
+/*SIDES*/
+.menu .sides {
+    color: #36522A;
+    text-align: center;
+}
+/*item grid*/
+.menu .sideItems {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    background-color: #E5EFD2;
+    width: 260px;
+    height: 230px;
+    place-self: center;
+    place-content: center;
+}
+/*items*/
+.menu .sideItems > div {
+    padding: 10px;
+}
+
+
+/*DRINKS*/
 .menu .drinks {
-    color: blue;
+    color: #36522A;
+    text-align: center;
+}
+/*item grid*/
+.menu .drinkItems {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    background-color: #E5EFD2;
+    width: 260px;
+    height: 230px;
+    place-self: center;
+    place-content: center;
+}
+/*items*/
+.menu .drinkItems > div {
+    padding: 10px;
 }

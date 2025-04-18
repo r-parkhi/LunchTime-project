@@ -4,11 +4,6 @@ h1 {
   font-weight: bold;
   color: rgb(54, 82, 42);
 }
-
-p {
-  text-align: center;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;

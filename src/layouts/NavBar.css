@@ -1,4 +1,4 @@
-
+/* navbar */
 header{
     width: 100vw;
 }
@@ -53,4 +53,19 @@ img{
 }
 h1{
     color: #36522A;
+}
+/*footer*/
+footer{
+    display: flex;
+    height: 55px;
+    justify-content: right;
+    background-color: #a6c48a;
+    width: 100vw;
+}
+p.copyRight{
+    font-size: 15px;
+    color:#36522A;
+    font-weight: bold;
+    align-self: center;
+    padding: 15px;
 }

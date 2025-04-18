@@ -22,25 +22,25 @@ img {
     background-color: #E5EFD2;
     width: 590px;
     height: 370px;
+    place-self: center;
+    place-content: center;
 }
 /*special item grid*/
 .menu .special {
     display: grid;
     grid-template-columns: 100px;
+    margin-left: 20px;
 }
 /*items*/
 .menu .special > div {
-    padding: 10px;
+    padding: 20px;
 }
 /*daily item grid*/
 .menu .daily {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
-
-}
-/*items*/
-.menu .daily > div {
-    padding: 10px;
+    margin-top: 30px;
+    place-content: center;
 }
 
 
@@ -56,6 +56,8 @@ img {
     background-color: #E5EFD2;
     width: 260px;
     height: 230px;
+    place-self: center;
+    place-content: center;
 }
 /*items*/
 .menu .sideItems > div {
@@ -75,6 +77,8 @@ img {
     background-color: #E5EFD2;
     width: 260px;
     height: 230px;
+    place-self: center;
+    place-content: center;
 }
 /*items*/
 .menu .drinkItems > div {

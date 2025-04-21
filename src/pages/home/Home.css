@@ -1,11 +1,20 @@
-/*images*/
+/*body*/
 body {
     text-align: center;
 }
 
-img {
-    border-radius: 5%;
+/*labels*/
+.label {
+    font-size: 12px;
+    color: black;
+    text-wrap: nowrap;
 }
+
+/*images*/
+img {
+    border-radius: 10px;
+}
+
 
 /*MENU CONTAINER*/
 .menu {
@@ -14,28 +23,27 @@ img {
     "sides entrees drinks";
 }
 
+
 /*ENTREES*/
 .menu .entrees {
+    margin-top: 20px;
     color: #36522A;
     text-align: center;
 }
 /*all items*/
 .menu .entreeItems {
     background-color: #E5EFD2;
-    width: 590px;
-    height: 370px;
+    width: 600px;
+    height: 380px;
     place-self: center;
     place-content: center;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*special item grid*/
 .menu .special {
     display: grid;
     grid-template-columns: 100px;
     margin-left: 20px;
-}
-/*items*/
-.menu .special > div {
-    padding: 20px;
 }
 /*special entrees images*/
 .menu .special img {
@@ -60,6 +68,7 @@ img {
 
 /*SIDES*/
 .menu .sides {
+    margin-top: 160px;
     color: #36522A;
     text-align: center;
 }
@@ -68,10 +77,11 @@ img {
     display: grid;
     grid-template-columns: 80px 80px 80px;
     background-color: #E5EFD2;
-    width: 260px;
-    height: 230px;
+    width: 270px;
+    height: 240px;
     place-self: center;
     place-content: center;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*sides images*/
 .menu .sideItems img {
@@ -83,6 +93,7 @@ img {
 
 /*DRINKS*/
 .menu .drinks {
+    margin-top: 160px;
     color: #36522A;
     text-align: center;
 }
@@ -91,14 +102,11 @@ img {
     display: grid;
     grid-template-columns: 100px 100px;
     background-color: #E5EFD2;
-    width: 260px;
-    height: 230px;
+    width: 270px;
+    height: 240px;
     place-self: center;
     place-content: center;
-}
-/*items*/
-.menu .drinkItems > div {
-    padding: 10px;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*drinks images*/
 .menu .drinkItems img {

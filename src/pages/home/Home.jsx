@@ -9,12 +9,12 @@ function Home() {
       <div className="sides">
         <h2>Sides</h2>
         <div className="sideItems">
-          <div><img src="src/assets/sides/celery.jpeg"></img></div>
-          <div><img src="src/assets/sides/banana.jpeg"></img></div>
-          <div><img src="src/assets/sides/carrots.webp"></img></div>
-          <div><img src="src/assets/sides/grapes.jpeg"></img></div>
-          <div><img src="src/assets/sides/redapples.webp"></img></div>
-          <div><img src="src/assets/sides/strawberries.jpeg"></img></div>
+          <div><span className="label">Bananas</span><img src="src/assets/sides/banana.jpeg"></img></div>
+          <div><span className="label">Grapes</span><img src="src/assets/sides/grapes.jpeg"></img></div>
+          <div><span className="label">Carrots</span><img src="src/assets/sides/carrots.webp"></img></div>
+          <div><span className="label">Strawberries</span><img src="src/assets/sides/strawberries.jpeg"></img></div>
+          <div><span className="label">Celery</span><img src="src/assets/sides/celery.jpeg"></img></div>
+          <div><span className="label">Apples</span><img src="src/assets/sides/redapples.webp"></img></div>
         </div>
       </div>
 
@@ -22,14 +22,14 @@ function Home() {
         <h2>Entrees</h2>
         <div className="entreeItems">
           <div className="special">
-            <img src="https://placehold.co/225x110"></img>
-            <img src="https://placehold.co/225x110"></img>
+            <img src="src/assets/entrees/special/caesarsalad.jpg"></img>
+            <img src="src/assets/entrees/special/boscosticks.jpg"></img>
           </div>
           <div className="daily">
-            <div><img src="https://placehold.co/75x75"></img></div>
-            <div><img src="https://placehold.co/75x75"></img></div>
-            <div><img src="https://placehold.co/75x75"></img></div>
-            <div><img src="https://placehold.co/75x75"></img></div>
+            <div><span className="label">Cheese Pizza</span><img src="src/assets/entrees/daily/cheesepizza.jpg"></img></div>
+            <div><span className="label">Pepperoni Pizza</span><img src="src/assets/entrees/daily/pepperonipizza.webp"></img></div>
+            <div><span className="label">Uncrustables</span><img src="src/assets/entrees/daily/uncrustable.jpg"></img></div>
+            <div><span className="label">Hummus Bistro Pack</span><img src="src/assets/entrees/daily/hummusbistropack.png"></img></div>
           </div>
         </div>
       </div>
@@ -38,10 +38,10 @@ function Home() {
       <div className="drinks">
         <h2>Drinks</h2>
         <div className="drinkItems">
-          <div><img src="src/assets/drinks/milk.png"></img></div>
-          <div><img src="src/assets/drinks/chocmilk.png"></img></div>
-          <div><img src="src/assets/drinks/orangejuice.jpeg"></img></div>
-          <div><img src="src/assets/drinks/berryjuice.png"></img></div>
+          <div><span className="label">Low Fat Milk</span><img src="src/assets/drinks/milk.png"></img></div>
+          <div><span className="label">Chocolate Milk</span><img src="src/assets/drinks/chocmilk.png"></img></div>
+          <div><span className="label">Orange Juice</span><img src="src/assets/drinks/orangejuice.jpeg"></img></div>
+          <div><span className="label">Apple Berry Juice</span><img src="src/assets/drinks/berryjuice.png"></img></div>
         </div>
       </div>
     </div>

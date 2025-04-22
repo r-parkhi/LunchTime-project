@@ -51,12 +51,24 @@ img {
     width: 225px;
     height: 110px;
 }
+/*special entrees images*/
+.menu .special img {
+    object-fit: cover;
+    width: 225px;
+    height: 110px;
+}
 /*daily item grid*/
 .menu .daily {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     margin-top: 30px;
     place-content: center;
+}
+/*daily entrees images*/
+.menu .daily img {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
 }
 /*daily entrees images*/
 .menu .daily img {
@@ -88,6 +100,11 @@ img {
     object-fit: cover;
     width: 60px;
     height: 60px;
+/*sides images*/
+.menu .sideItems img {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -107,6 +124,12 @@ img {
     place-self: center;
     place-content: center;
     box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+/*drinks images*/
+.menu .drinkItems img {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
 }
 /*drinks images*/
 .menu .drinkItems img {

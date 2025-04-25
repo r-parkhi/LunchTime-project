@@ -47,7 +47,8 @@ ul.logoname {
   display: flex;
   justify-content: flex-start;
 }
-img {
+
+.logoname img {
   width: 80px;
 }
 h1 {

@@ -8,7 +8,7 @@ export default function DRDropdown() {
 
   return (
     <div className="wrapper">
-      <button onClick={() => setOpen(!open)}>
+      <button className="drbutton" onClick={() => setOpen(!open)}>
         <span>Dietary Restrictions</span>
         <img className={open ? "upsidedown" : ""} src={DropdownSVG} alt="Dropdown button" />
       </button>

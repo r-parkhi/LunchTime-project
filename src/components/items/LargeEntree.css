@@ -1,0 +1,26 @@
+.specialEntree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productImage {
+  margin-right: 0.5rem;
+}
+
+.productInfo {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.productName {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.productText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -1,11 +1,11 @@
-function Title({entreeName = "Title", entreeDescription = "Description"}){
+
+function Title({entreeName = "Title", entreeDescription = "Description", entreeImage = ""}){
     return(
-        <div>
-            <h1>{entreeName}</h1>
-            <p>{entreeDescription}</p>
-            <img src = "https://placehold.co/300x300"></img>
+        <div className="EntreeTop"> 
+            <span><h1>{entreeName}</h1></span>
+            <img src ={entreeImage}></img>
+            <span>{entreeDescription}</span>
         </div>
     );
 }
-
 export default Title;

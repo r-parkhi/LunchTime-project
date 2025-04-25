@@ -3,9 +3,12 @@ import './Home.css'
 function Home() {
   return (
     <>
-    <h4>Tue March 11, 2025</h4>
+    {/*Date*/}
+    <h3>Tue March 11, 2025</h3>
 
+    {/*Menu*/}
     <div className="menu">
+      {/*Sides*/}
       <div className="sides">
         <h2>Sides</h2>
         <div className="sideItems">
@@ -18,13 +21,19 @@ function Home() {
         </div>
       </div>
 
+
+      {/*Entrees*/}
       <div className="entrees">
         <h2>Entrees</h2>
+        
         <div className="entreeItems">
+          {/*Special items*/}
           <div className="special">
-            <img src="src/assets/entrees/special/caesarsalad.jpg"></img>
-            <img src="src/assets/entrees/special/boscosticks.jpg"></img>
+            <div><img src="src/assets/entrees/special/caesarsalad.jpg"></img></div>
+            <div><img src="src/assets/entrees/special/boscosticks.jpg"></img></div>
           </div>
+                  
+          {/*Daily items*/}
           <div className="daily">
             <div><span className="label">Cheese Pizza</span><img src="src/assets/entrees/daily/cheesepizza.jpg"></img></div>
             <div><span className="label">Pepperoni Pizza</span><img src="src/assets/entrees/daily/pepperonipizza.webp"></img></div>
@@ -33,8 +42,9 @@ function Home() {
           </div>
         </div>
       </div>
-
       
+
+      {/*Drinks*/}
       <div className="drinks">
         <h2>Drinks</h2>
         <div className="drinkItems">

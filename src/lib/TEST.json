@@ -1,0 +1,2866 @@
+{
+  "data": {
+    "menuType": {
+      "defaultPublishedMonth": {
+        "items": [
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a1",
+              "name": "Deli Ham Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 7,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "660310a0e96f1ec2df04a5b3",
+              "name": "Teriyaki Beef Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 8,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "67d49325e96f1ee52b0572f4",
+              "name": "Mac N Cheese W/Garlic Knot",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 9,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a7",
+              "name": "Pupusa (Bean & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4bf",
+              "name": "Pupusa (Carnitas OR Birria)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4be",
+              "name": "Pupusa (Birria & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce518",
+              "name": "Beef Taco Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 10,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6557b198e96f1e5c905f7d80",
+              "name": "Hot Dog",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 11,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a1",
+              "name": "Deli Ham Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 14,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "660310a0e96f1ec2df04a5b3",
+              "name": "Teriyaki Beef Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 15,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "67d49325e96f1ee52b0572f4",
+              "name": "Mac N Cheese W/Garlic Knot",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 16,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a7",
+              "name": "Pupusa (Bean & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4bf",
+              "name": "Pupusa (Carnitas OR Birria)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4be",
+              "name": "Pupusa (Birria & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce518",
+              "name": "Beef Taco Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 17,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6557b198e96f1e5c905f7d80",
+              "name": "Hot Dog",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 18,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a1",
+              "name": "Deli Ham Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 21,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "660310a0e96f1ec2df04a5b3",
+              "name": "Teriyaki Beef Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 22,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "67d49325e96f1ee52b0572f4",
+              "name": "Mac N Cheese W/Garlic Knot",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 23,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a7",
+              "name": "Pupusa (Bean & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4bf",
+              "name": "Pupusa (Carnitas OR Birria)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4be",
+              "name": "Pupusa (Birria & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce518",
+              "name": "Beef Taco Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 24,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6557b198e96f1e5c905f7d80",
+              "name": "Hot Dog",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 25,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a1",
+              "name": "Deli Ham Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 28,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "660310a0e96f1ec2df04a5b3",
+              "name": "Teriyaki Beef Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 29,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "67d49325e96f1ee52b0572f4",
+              "name": "Mac N Cheese W/Garlic Knot",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 30,
+            "month": null,
+            "importSrcId": "cbc86c51-6e4b-ef11-a7d9-fac395317ed0",
+            "year": null,
+            "date": null,
+            "hidden": null,
+            "portion_size": null,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

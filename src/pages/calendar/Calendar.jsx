@@ -4,15 +4,15 @@ import react, { useState,useEffect } from "react";
 
 export default function Calendar() {
 
-  function getBeginOfWeek(date = new Date(), startOfWeek = 1) {
-    const result = new Date(date);
-    while (result.getDay() !== startOfWeek) {
-        result.setDate(result.getDate() - 1);
-    }
-    return result;
+  function getBeginOfWeek(){
+    const date = new Date();
+    const today = date.getDate();
+    const currentDay = date.getDay();
+    const newDate = today - (currentDay || 7)
+    return newDate;
 }
+console.log(getBeginOfWeek())
 
-console.log(getBeginOfWeek.result)
 
   return (
   <>
@@ -28,10 +28,12 @@ console.log(getBeginOfWeek.result)
     </div>
     <div className='calendarBox'>
       <h1 className='month'>April 2025</h1>
-      <h2>{}</h2>
+      <div className='monday'>
+      <h3>{getBeginOfWeek() + 1}</h3>
       <h2>Monday</h2>
-      <div className='Monday'>
-        <CalendarFoodBox/>
+      <div className='food1'>
+      <CalendarFoodBox foodname='Chicken Fajita Burrito'/>
+      </div>
       </div>
     </div>
   </div>

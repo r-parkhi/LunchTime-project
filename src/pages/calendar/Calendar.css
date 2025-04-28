@@ -9,7 +9,7 @@ img{
 .calendarBox{
     display: grid;
     grid-template-columns: 180px 180px 180px 180px 180px;
-    grid-template-rows: 10% 10% 40% 40%;
+    grid-template-rows: 50px 45px 45px;
     width: 900px;
     height: 500px;
     background-color: #F4F4F4;
@@ -22,7 +22,44 @@ img{
     margin: 0%;
 }
 .monday{
-
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.monday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.monday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.monday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+.food1 h3{
+    background-color: unset;
+    font-weight: normal;
+    font-size: 12px;
+}
+.food1 img{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    object-fit: cover;
+}
+.byDayFoodBox{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 160px;
+    height: 140px;
 }
 .everydayFoods{
     display: grid;

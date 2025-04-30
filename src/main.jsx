@@ -7,6 +7,7 @@ import About from "./pages/about/About.jsx"
 import Calendar from "./pages/calendar/Calendar.jsx"
 import Home from './pages/home/Home.jsx'
 import Help from './pages/help/Help.jsx'
+import Info from './pages/info/Info.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<Help />} />
+          <Route path="/info" element={<Info />} />
         </Route>
       </Routes>
     </HashRouter>

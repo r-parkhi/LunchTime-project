@@ -39,13 +39,7 @@ body {
 /*special entrees images*/
 .menu .special img {
   object-fit: cover;
-  width: 225px;
-  height: 110px;
-}
-/*special entrees images*/
-.menu .special img {
-  object-fit: cover;
-  width: 225px;
+  min-width: 225px;
   height: 110px;
 }
 /*daily item grid*/

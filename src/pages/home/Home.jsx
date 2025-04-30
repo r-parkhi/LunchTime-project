@@ -1,8 +1,7 @@
-import { useQuery } from "@apollo/client"
-import './Home.css'
-import { GET_CURRENT_MONTH_MENU } from "../../lib/queries"
+import { useQuery } from "@apollo/client";
 import LargeEntree from "../../components/items/LargeEntree";
-import DRDropdown from "../../components/dietary-restrictions/DRDropdown";
+import { GET_CURRENT_MONTH_MENU } from "../../lib/queries";
+import './Home.css';
 
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
@@ -34,7 +33,9 @@ function Home() {
           <h2>Entrees</h2>
           <div className="entreeItems">
             <div className="special">
-              <LargeEntree id="64ef7ce7e96f1ed3af81b3a1" />
+              {todayEntrees.slice(0, -4).map((item) => {
+                return <LargeEntree key={item.product.id} id={item.product.id} />
+              })}
             </div>
             <div className="daily">
               <div><span className="label">Cheese Pizza</span><img src="src/assets/entrees/daily/cheesepizza.jpg"></img></div>
@@ -43,12 +44,6 @@ function Home() {
               <div><span className="label">Hummus Bistro Pack</span><img src="src/assets/entrees/daily/hummusbistropack.png"></img></div>
             </div>
           </div>
-        </div>
-
-        <div>
-          {todayEntrees.map((item) => {
-            return <p>{item.product.name}</p>
-          })}
         </div>
 
         <div className="drinks">

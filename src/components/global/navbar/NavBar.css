@@ -33,6 +33,7 @@ a:-webkit-any-link {
   height: 30px;
 }
 .loginbtn {
+  all: unset;
   text-align: center;
   background-color: #cf4d6f;
   padding: 15px;
@@ -57,4 +58,8 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+button{
+  all:unset;
+  cursor: pointer;
 }

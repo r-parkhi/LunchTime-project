@@ -14,3 +14,15 @@ export const food = {
     "6557b198e96f1e5c905f7d80":"src/assets/Entree-Items/HotDog.jpg",
     "64ef7ce7e96f1ed3af81b3ac":"src/assets/Entree-Items/YogurtParfait.jpg"
 }
+export const allergens = {
+    "Dairy":"src/assets/Allergens/DairyAllergy.jpg",
+    "Egg":"src/assets/Allergens/EggAllergy.jpg",
+    "Fish":"src/assets/Allergens/FishAllergen.jpg",
+    "Peanut":"src/assets/Allergens/PeanutAllergy,jpg",
+    "Pork":"src/assets/Allergens/PorkAllergy.png",
+    "Sesame":"src/assets/Allergens/SesameAllergy.jpg",
+    "ShellFish":"src/assets/Allergens/ShellFishAllergy.jpg",
+    "Soy":"src/assets/Allergens/SoyAllergy.jpg",
+    "TreeNut":"src/assets/Allergens/treenutallergy.jpg",
+    "Wheat":"src/assets/Allergens/WheatAllergen.jpg"
+}

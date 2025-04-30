@@ -8,6 +8,7 @@ import Calendar from "./pages/calendar/Calendar.jsx"
 import Home from './pages/home/Home.jsx'
 import Help from './pages/help/Help.jsx'
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client"
+import Info from "./pages/info/Info.jsx"
 
 const client = new ApolloClient({
   uri: "https://api.isitesoftware.com/graphql",

@@ -27,3 +27,8 @@ strong {
   color: #36522a;
   font-family: "Sour Gummy", sans-serif;
 }
+
+.LogoText img{
+  width: 80px;
+  height: 80px;
+}

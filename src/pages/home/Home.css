@@ -1,6 +1,6 @@
-/*body*/
-body {
-  text-align: center;
+/*date*/
+.date {
+    text-align: center;
 }
 
 /*labels*/
@@ -55,12 +55,14 @@ body {
   width: 75px;
   height: 75px;
 }
+
 /*daily entrees images*/
 .menu .daily img {
   object-fit: cover;
   width: 75px;
   height: 75px;
 }
+
 
 /*SIDES*/
 .menu .sides {

@@ -1,6 +1,14 @@
 import './Info.css';
+import {useState} from "react";
 
 function Info() {
+    const [heart, setHeart] = useState("");
+
+    //need to fix
+    function handleClick() {
+        setHeart()
+    }
+
   return (
     <>
       <div className="page">
@@ -8,7 +16,7 @@ function Info() {
 
         <div className="info">
           {/*title & heart*/}
-          <p className="name">Chicken Caesar Salad</p> <p className="heart">♡</p>
+          <p className="name">Chicken Caesar Salad</p> <span onClick={handleClick} className="heart">♡</span>
         
           {/*RATING*/}
           <div className="rating">
@@ -33,7 +41,7 @@ function Info() {
               <span className="main">Calories: 735Kcal</span>
               <span className="main">Total fat: 43.5g</span>
               <span className="sub">Trans fat: 0g</span>
-              <span className="sub">Saturated fat: </span>
+              <span className="sub">Saturated fat: 9g</span>
               <span className="main">Cholesterol: 100mg</span>
               <span className="main">Sodium: 1,055mg</span>
               <span className="main">Potassium: 710mg</span>
@@ -45,7 +53,6 @@ function Info() {
               <span className="sub">Added sugars: 0g</span>
               <span className="main">Protein: 34g</span>
               <span className="main">Iron: 5mg</span>
-              <span className="main">Sodium: 1,055mg</span>
               <span className="main">Calcium: 160mg</span>
               <span className="main">Vitamin A: 18,200 IU</span>
               <span className="main">Vitamin C: 12mg</span>

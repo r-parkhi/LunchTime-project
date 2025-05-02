@@ -22,7 +22,7 @@ ul.navbtns {
   flex-direction: row;
   align-items: center;
 }
-a:-webkit-any-link {
+.navbtns > li > a {
   padding: 15px;
   list-style-type: none;
   padding-left: 30px;
@@ -59,7 +59,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-button{
-  all:unset;
+button {
+  all: unset;
   cursor: pointer;
 }

@@ -16,7 +16,7 @@ export default function About() {
           Happy lunching,
         </p>
         <div className="logoText">
-          <img src={Logo} />
+          <img className="logo" src={Logo} />
           <strong className="strong">LunchTime!</strong>
         </div>
       </div>

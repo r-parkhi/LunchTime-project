@@ -1,39 +1,39 @@
-import { NavLink } from "react-router"
-import "./NavBar.css"
-import Logo from "../../../assets/LunchTimeLogo.png"
-import {db, auth, provider} from '../../../firebase';
-import { signInWithPopup, signOut, onAuthStateChanged } from 'firebase/auth';
-import {useEffect, useState} from 'react';
+import { onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth';
+import { useEffect, useState } from 'react';
+import { NavLink } from "react-router";
+import Logo from "../../../assets/LunchTimeLogo.png";
+import { auth, provider } from '../../../firebase';
+import "./NavBar.css";
 
 function NavBar() {
 
-  const[user, setUser] = useState(null);
+  const [user, setUser] = useState(null);
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       setUser(currentUser);
-  });
-  return () => unsubscribe();
-},[]);
+    });
+    return () => unsubscribe();
+  }, []);
 
-const handleLogin = async () => {
-  try {
-    await signInWithPopup (auth, provider);
-    console.log(user);
+  const handleLogin = async () => {
+    try {
+      await signInWithPopup(auth, provider);
+      console.log(user);
 
-  } catch (error){
-    console.error('Login Failed', error);
-  }
-};
-const handleLogout = async () => {
-  try{
-    await signOut(auth);
-    setUser(null);
-    console.log(user);
-  } catch (error){
-    console.error('Logout Failed', error);
-  }
-};
-  
+    } catch (error) {
+      console.error('Login Failed', error);
+    }
+  };
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+      setUser(null);
+      console.log(user);
+    } catch (error) {
+      console.error('Logout Failed', error);
+    }
+  };
+
   return (
     <header>
       <div className="navbar">
@@ -46,11 +46,11 @@ const handleLogout = async () => {
           <li><NavLink to="/calendar">Calendar</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/faq">FAQ</NavLink></li>
-          {!user?
-          (<li className="loginbtn"><button onClick={handleLogin}>Login</button></li>):
-          (<li className="loginbtn"><button onClick={handleLogout}>Logout</button></li>)
+          {!user ?
+            (<li className="loginbtn"><button onClick={handleLogin}>Login</button></li>) :
+            (<li className="loginbtn"><button onClick={handleLogout}>Logout</button></li>)
           }
-        
+
         </ul>
       </div>
     </header>

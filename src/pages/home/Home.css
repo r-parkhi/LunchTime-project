@@ -1,5 +1,5 @@
-/*body*/
-body {
+/*date*/
+.date {
     text-align: center;
 }
 
@@ -60,12 +60,6 @@ img {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     place-content: center;
-}
-/*daily entrees images*/
-.menu .daily img {
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
 }
 /*daily entrees images*/
 .menu .daily img {

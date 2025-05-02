@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
     {/*Date*/}
-    <h3>Tue March 11, 2025</h3>
+    <h3 className="date">Tue March 11, 2025</h3>
 
     {/*Menu*/}
     <div className="menu">

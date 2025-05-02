@@ -1,140 +1,125 @@
-/*body*/
-body {
+/*date*/
+.date {
     text-align: center;
 }
 
 /*labels*/
 .label {
-    font-size: 12px;
-    color: black;
-    text-wrap: nowrap;
+  font-size: 12px;
+  color: black;
+  text-wrap: nowrap;
 }
 
 /*images*/
-img {
-    border-radius: 10px;
+.menu img {
+  border-radius: 10px;
 }
-
 
 /*MENU CONTAINER*/
 .menu {
-    display: grid;
-    grid-template-areas: 
-    "sides entrees drinks";
+  display: grid;
+  grid-template-areas: "sides entrees drinks";
 }
-
 
 /*ENTREES*/
 .menu .entrees {
-    margin-top: 20px;
-    color: #36522A;
-    text-align: center;
+  margin-top: 20px;
+  color: #36522a;
+  text-align: center;
 }
 /*all items*/
 .menu .entreeItems {
-    background-color: #E5EFD2;
-    width: 600px;
-    height: 380px;
-    place-self: center;
-    place-content: center;
-    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
-}
-/*special item grid*/
-.menu .special {
-    display: grid;
-    grid-template-columns: 100px;
-    margin-left: 20px;
+  background-color: #e5efd2;
+  width: 600px;
+  height: 380px;
+  place-self: center;
+  place-content: center;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*special entrees images*/
 .menu .special img {
-    object-fit: cover;
-    width: 225px;
-    height: 110px;
-}
-/*special entrees images*/
-.menu .special img {
-    object-fit: cover;
-    width: 225px;
-    height: 110px;
+  object-fit: cover;
+  min-width: 225px;
+  height: 110px;
 }
 /*daily item grid*/
 .menu .daily {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    margin-top: 30px;
-    place-content: center;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  margin-top: 30px;
+  place-content: center;
 }
 /*daily entrees images*/
 .menu .daily img {
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
 }
+
 /*daily entrees images*/
 .menu .daily img {
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
 }
 
 
 /*SIDES*/
 .menu .sides {
-    margin-top: 160px;
-    color: #36522A;
-    text-align: center;
+  margin-top: 160px;
+  color: #36522a;
+  text-align: center;
 }
 /*item grid*/
 .menu .sideItems {
-    display: grid;
-    grid-template-columns: 80px 80px 80px;
-    background-color: #E5EFD2;
-    width: 270px;
-    height: 240px;
-    place-self: center;
-    place-content: center;
-    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  background-color: #e5efd2;
+  width: 270px;
+  height: 240px;
+  place-self: center;
+  place-content: center;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*sides images*/
 .menu .sideItems img {
-    object-fit: cover;
-    width: 60px;
-    height: 60px;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
 }
 /*sides images*/
 .menu .sideItems img {
-    object-fit: cover;
-    width: 60px;
-    height: 60px;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
 }
-
 
 /*DRINKS*/
 .menu .drinks {
-    margin-top: 160px;
-    color: #36522A;
-    text-align: center;
+  margin-top: 160px;
+  color: #36522a;
+  text-align: center;
 }
 /*item grid*/
 .menu .drinkItems {
-    display: grid;
-    grid-template-columns: 100px 100px;
-    background-color: #E5EFD2;
-    width: 270px;
-    height: 240px;
-    place-self: center;
-    place-content: center;
-    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: 100px 100px;
+  background-color: #e5efd2;
+  width: 270px;
+  height: 240px;
+  place-self: center;
+  place-content: center;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 /*drinks images*/
 .menu .drinkItems img {
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
 }
 /*drinks images*/
 .menu .drinkItems img {
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
 }

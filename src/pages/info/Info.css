@@ -1,0 +1,66 @@
+.page {
+    display: grid;
+    grid-template-columns: 550px auto;
+}
+
+.image {
+    object-fit: cover;
+    width: 380px;
+    height: 380px;
+    place-self: center;
+    margin-bottom: 50px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    display: inline;
+}
+
+.heart {
+    font-size: 45px;
+    display: inline;
+    cursor: pointer;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+.stars {
+    color: gold;
+    font-size: 30px;
+}
+.submitBtn {
+   color: red;
+}
+
+
+.desc {
+    line-height: 20px;
+    width: 450px;
+    margin-top: 0px;
+}
+
+.allergenIcons img {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+}
+
+/*NUTRITION FACTS*/
+.nutritionFacts {
+    display: grid;
+    grid-template-columns: 180px 180px;
+}
+.nutritionFacts span {
+    display: block;
+    line-height: 16px;
+}
+.nutritionFacts .main {
+    font-size: 15px;
+}
+.nutritionFacts .sub {
+    font-size: 12px;
+    margin-left: 15px;
+}

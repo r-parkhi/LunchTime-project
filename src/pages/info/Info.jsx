@@ -22,20 +22,25 @@ function Info() {
         {/*title & heart*/}
         <p className="name">{product.name}</p> <p className="heart">♡</p>
 
-        {/*RATING*/}
-        <div className="rating">
-          {/*stars*/}
-          <p className="stars">★ ★ ★ ★ ★</p>
-          {/*button*/}
-          <button className="submitBtn">Submit a rating</button>
-        </div>
-
-        {/*ALLERGENS*/}
-        <h3>Allergens:</h3>
-        <div className="allergenIcons">
-          <img src="https://placehold.co/30x30"></img>Milk
-          <img src="https://placehold.co/30x30"></img>Soy
-        </div>
+        <div className="info">
+          {/*title & heart*/}
+          <p className="name">Chicken Caesar Salad</p> <button onClick={() => setSelected(hearts.fav)} className="heart"> Click</button>
+        
+          {/*RATING*/}
+          <div className="rating">
+            {/*stars*/}
+            <p className="stars">★ ★ ★ ★ ★</p>
+            {/*button*/}
+            <button className="submitBtn">Submit a rating</button>
+          </div>
+          
+          <p className="desc">Salad kit with romaine lettuce, grilled chicken, croutons, Parmesan cheese, and a Caesar salad dressing packet.</p>
+          {/*ALLERGENS*/}
+          <h3>Allergens:</h3>
+          <div className="allergenIcons">
+            <img src="https://placehold.co/30x30"></img>Milk
+            <img src="https://placehold.co/30x30"></img>Soy
+          </div>
 
         {/*NUTIRTION FACTS*/}
         <h3>Nutrition Facts:</h3>

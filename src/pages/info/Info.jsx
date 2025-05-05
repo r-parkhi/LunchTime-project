@@ -77,7 +77,7 @@ function Info() {
 
         </div>
       </div>
-    </div>
+    </div></div> 
   );
 }
 

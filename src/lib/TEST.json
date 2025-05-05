@@ -1,0 +1,1874 @@
+{
+  "data": {
+    "menuType": {
+      "defaultPublishedMonth": {
+        "items": [
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a7",
+              "name": "Pupusa (Bean & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4bf",
+              "name": "Pupusa (Carnitas OR Birria)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "670ecb16e96f1e44045ce4be",
+              "name": "Pupusa (Birria & Cheese)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce518",
+              "name": "Beef Taco Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 1,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "6557b198e96f1e5c905f7d80",
+              "name": "Hot Dog",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 2,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "65d77202e96f1e86245bf647",
+              "name": "Chicken Fajita Burrito",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 5,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b881",
+              "name": "Pulled Pork Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 6,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 7,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ae",
+              "name": "Cheeseburger",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "660310a1e96f1ec2df04a5b4",
+              "name": "Chipotle Ranch Chicken Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 8,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "680be9f7e96f1e0aa395c82f",
+              "name": "Chicken Enchilada  (Green Sauce) with Beans & Cheese",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce517",
+              "name": "General TSO Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 9,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "65d77202e96f1e86245bf647",
+              "name": "Chicken Fajita Burrito",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 12,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b881",
+              "name": "Pulled Pork Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 13,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 14,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ae",
+              "name": "Cheeseburger",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "660310a1e96f1ec2df04a5b4",
+              "name": "Chipotle Ranch Chicken Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 15,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "680be9f7e96f1e0aa395c82f",
+              "name": "Chicken Enchilada  (Green Sauce) with Beans & Cheese",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce517",
+              "name": "General TSO Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 16,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "65d77202e96f1e86245bf647",
+              "name": "Chicken Fajita Burrito",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a0",
+              "name": "House Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a6",
+              "name": "Broccoli",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 19,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b881",
+              "name": "Pulled Pork Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 20,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 21,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ae",
+              "name": "Cheeseburger",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "660310a1e96f1ec2df04a5b4",
+              "name": "Chipotle Ranch Chicken Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 22,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "680be9f7e96f1e0aa395c82f",
+              "name": "Chicken Enchilada  (Green Sauce) with Beans & Cheese",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce517",
+              "name": "General TSO Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 23,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b881",
+              "name": "Pulled Pork Sandwich",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a8",
+              "name": "Chicken Caesar Salad & Dinner Roll",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a9",
+              "name": "Cucumber",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3b1",
+              "name": "Spiral Fries",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 27,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ab",
+              "name": "Crispy Chicken Sandwich (Spicy or Regular)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ac",
+              "name": "Yogurt Fruit Parfait w/Granola",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468c",
+              "name": "Side Salad",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 28,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3ae",
+              "name": "Cheeseburger",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "660310a1e96f1ec2df04a5b4",
+              "name": "Chipotle Ranch Chicken Salad",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce519",
+              "name": "CELERY, STICKS",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "6532d0cbe96f1ee4a746b884",
+              "name": "Garbanzo Bean (Side)",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 29,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "680be9f7e96f1e0aa395c82f",
+              "name": "Chicken Enchilada  (Green Sauce) with Beans & Cheese",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "670ec9c2e96f1e7cf45ce517",
+              "name": "General TSO Chicken & Rice Bowl",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a2",
+              "name": "Cheese Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a3",
+              "name": "Pepperoni Pizza",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "650b4b30e96f1e0dd8c736eb",
+              "name": "PB & J Sandwich (Assorted)",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a4",
+              "name": "Hummus Bistro Pack",
+              "category": "Entrees"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7ce7e96f1ed3af81b3a5",
+              "name": "Baby Carrots",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "6508b2c6e96f1e4ee98b468e",
+              "name": "Tater Gems",
+              "category": "Vegetable"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48b",
+              "name": "Juice (Assorted)",
+              "category": "Fruit"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48c",
+              "name": "1% Lowfat Milk",
+              "category": "Milk"
+            }
+          },
+          {
+            "day": 30,
+            "product": {
+              "id": "64ef7a36e96f1e829581b48d",
+              "name": "Fat-Free Chocolate Milk",
+              "category": "Milk"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

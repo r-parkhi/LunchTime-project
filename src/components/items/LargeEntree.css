@@ -3,21 +3,25 @@
   align-items: center;
   justify-content: center;
   margin: 1rem 3rem;
+  text-decoration: none;
+  color: black;
 }
 
 .productImage {
-  margin-right: 0.5rem;
+  margin-right: 2rem;
 }
 
 .productInfo {
   display: inline-flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 .productName {
   color: black;
   font-weight: bold;
   font-size: 1.25rem;
+  text-align: left;
 }
 
 .productText {

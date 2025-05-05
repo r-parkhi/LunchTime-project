@@ -1,11 +1,26 @@
+import { useQuery } from "@apollo/client";
 import './Info.css';
+import { useParams } from "react-router";
+import { GET_PRODUCT } from "../../lib/queries";
+import { food } from "../../lib/mappings";
 
 function Info() {
+  const { id } = useParams()
+  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
+
+  if (loading) return <p>Loading...</p>
+  if (error) return <p>Error: {error.message}</p>
+
+  const imageSrc = food[id];
+  const product = data.product;
 
   return (
-    <>
-      <div className="page">
-        <img className="image" src="src/assets/entrees/special/caesarsalad.jpg"></img>
+    <div className="page">
+      <img className="image" src={imageSrc} alt={product.name + " image"} />
+
+      <div className="info">
+        {/*title & heart*/}
+        <p className="name">{product.name}</p> <p className="heart">♡</p>
 
         <div className="info">
           {/*title & heart*/}
@@ -27,33 +42,32 @@ function Info() {
             <img src="https://placehold.co/30x30"></img>Soy
           </div>
 
-          {/*NUTIRTION FACTS*/}
-          <h3>Nutrition Facts:</h3>
-          <div className="nutritionFacts">
-              {/*column 1*/}
-              <span className="main">Calories: 735Kcal</span>
-              <span className="main">Total fat: 43.5g</span>
-              <span className="sub">Trans fat: 0g</span>
-              <span className="sub">Saturated fat: 9g</span>
-              <span className="main">Cholesterol: 100mg</span>
-              <span className="main">Sodium: 1,055mg</span>
-              <span className="main">Potassium: 710mg</span>
-              <span className="main">Carbohydrates: 55mg</span>
+        {/*NUTIRTION FACTS*/}
+        <h3>Nutrition Facts:</h3>
+        <div className="nutritionFacts">
+          {/*column 1*/}
+          <span className="main">Calories: {product.prod_calories}kcal</span>
+          <span className="main">Total fat: {product.prod_total_fat}g</span>
+          <span className="sub">Trans fat: {product.prod_trans_fat}g</span>
+          <span className="sub">Saturated fat: {product.prod_sat_fat}g</span>
+          <span className="main">Cholesterol: {product.prod_cholesterol}mg</span>
+          <span className="main">Sodium: {product.prod_sodium}mg</span>
+          <span className="main">Potassium: {product.prod_potassium}mg</span>
+          <span className="main">Carbohydrates: {product.prod_carbs}mg</span>
 
-              {/*column 2*/}
-              <span className="main">Dietary fiber: 14g</span>
-              <span className="main">Total sugars: 3g</span>
-              <span className="sub">Added sugars: 0g</span>
-              <span className="main">Protein: 34g</span>
-              <span className="main">Iron: 5mg</span>
-              <span className="main">Calcium: 160mg</span>
-              <span className="main">Vitamin A: 18,200 IU</span>
-              <span className="main">Vitamin C: 12mg</span>
+          {/*column 2*/}
+          <span className="main">Dietary fiber: {product.prod_dietary_fiber}g</span>
+          <span className="main">Total sugars: {product.sugar}g</span>
+          <span className="sub">Added sugars: {product.added_sugar}g</span>
+          <span className="main">Protein: {product.prod_protein}g</span>
+          <span className="main">Iron: {product.prod_iron}mg</span>
+          <span className="main">Calcium: {product.prod_calcium}mg</span>
+          <span className="main">Vitamin A: {product.prod_vita_iu}IU</span>
+          <span className="main">Vitamin C: {product.prod_vitc}mg</span>
 
-          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

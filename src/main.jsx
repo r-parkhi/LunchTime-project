@@ -1,13 +1,13 @@
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client"
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { HashRouter, Route, Routes } from "react-router"
+import { BrowserRouter, Route, Routes } from "react-router"
 import './index.css'
 import AppLayout from "./layouts/AppLayout.jsx"
 import About from "./pages/about/About.jsx"
 import Calendar from "./pages/calendar/Calendar.jsx"
-import Home from './pages/home/Home.jsx'
 import Help from './pages/help/Help.jsx'
-import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client"
+import Home from './pages/home/Home.jsx'
 import Info from "./pages/info/Info.jsx"
 
 const client = new ApolloClient({
@@ -18,17 +18,17 @@ const client = new ApolloClient({
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ApolloProvider client={client}>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route element={<AppLayout />} >
             <Route index element={<Home />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<Help />} />
-            <Route path="/info" element={<Info />} />
+            <Route path="/info/:id" element={<Info />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </ApolloProvider>
   </StrictMode>,
 )

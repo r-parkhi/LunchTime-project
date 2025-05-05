@@ -28,7 +28,6 @@ strong {
   font-family: "Sour Gummy", sans-serif;
 }
 
-.LogoText img{
-  width: 80px;
-  height: 80px;
+.logo {
+  width: 100px;
 }

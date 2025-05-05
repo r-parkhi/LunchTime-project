@@ -4,6 +4,9 @@ import { useParams } from "react-router";
 import { GET_PRODUCT } from "../../lib/queries";
 import { food } from "../../lib/mappings";
 
+import Heart from "../../components/Heart.jsx";
+import React, { useState } from "react";
+
 function Info() {
   const { id } = useParams()
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
@@ -14,28 +17,40 @@ function Info() {
   const imageSrc = food[id];
   const product = data.product;
 
+  // favorite
+  const [active, setActive] = useState(false);
+  const handleChangeActive = () => {
+    setActive((previousHeart) => {
+      return !previousHeart;
+    });
+  };
+
   return (
     <div className="page">
       <img className="image" src={imageSrc} alt={product.name + " image"} />
 
       <div className="info">
         {/*title & heart*/}
-        <p className="name">{product.name}</p> <p className="heart">♡</p>
-
-        {/*RATING*/}
-        <div className="rating">
-          {/*stars*/}
-          <p className="stars">★ ★ ★ ★ ★</p>
-          {/*button*/}
-          <button className="submitBtn">Submit a rating</button>
+        <div className="titleContainer">
+          <p className="name">{product.name}</p>
+          <Heart active={active} handleChangeActive={handleChangeActive}/>
         </div>
 
-        {/*ALLERGENS*/}
-        <h3>Allergens:</h3>
-        <div className="allergenIcons">
-          <img src="https://placehold.co/30x30"></img>Milk
-          <img src="https://placehold.co/30x30"></img>Soy
-        </div>
+          {/*RATING*/}
+          <div className="rating">
+            {/*stars*/}
+            <p className="stars">★ ★ ★ ★ ★</p>
+            {/*button*/}
+            <button className="submitBtn">Submit a rating</button>
+          </div>
+          
+          <p className="desc">Salad kit with romaine lettuce, grilled chicken, croutons, Parmesan cheese, and a Caesar salad dressing packet.</p>
+          {/*ALLERGENS*/}
+          <h3>Allergens:</h3>
+          <div className="allergenIcons">
+            <img src="https://placehold.co/30x30"></img>Milk
+            <img src="https://placehold.co/30x30"></img>Soy
+          </div>
 
         {/*NUTIRTION FACTS*/}
         <h3>Nutrition Facts:</h3>
@@ -62,7 +77,7 @@ function Info() {
 
         </div>
       </div>
-    </div>
+    </div></div> 
   );
 }
 

@@ -1,7 +1,4 @@
-/*date*/
-.date {
-    text-align: center;
-}
+
 
 /*labels*/
 .label {
@@ -21,6 +18,20 @@
   grid-template-areas: "sides entrees drinks";
 }
 
+.homeInfo {
+  display: grid;
+  grid-template-areas: "date waitTime";
+}
+
+.waitTime{
+  width: 200px;
+}
+
+.date{
+  width: 200px;
+  text-align: center;
+}
+
 /*ENTREES*/
 .menu .entrees {
   margin-top: 20px;
@@ -31,7 +42,7 @@
 .menu .entreeItems {
   background-color: #e5efd2;
   width: 600px;
-  height: 380px;
+  height: 390px;
   place-self: center;
   place-content: center;
   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
@@ -122,4 +133,14 @@
   object-fit: cover;
   width: 75px;
   height: 75px;
+}
+
+
+/*wait time*/
+.waitTime {
+  text-align: right;
+}
+
+.countdown {
+  text-align: left;
 }

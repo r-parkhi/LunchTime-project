@@ -2,7 +2,7 @@
   width: 225px;
 }
 
-button {
+.drbutton {
   all: unset;
   cursor: pointer;
   display: flex;

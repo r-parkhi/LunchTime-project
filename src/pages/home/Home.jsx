@@ -17,13 +17,13 @@ function Home() {
 
   return (
     <>
-       <div className="countdown">  
+        <div className="countdown">  
           <countdown initialSeconds={60} />
         </div>
         <div className="homeInfo">
         <h3 className="waitTime">Wait time: 10 min</h3>
-        <h3 className="waitTime">Count down: 20min</h3>
         <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
+        <h3 className="countdown">Count Down:</h3>
         </div>
         
       <div className="menu">

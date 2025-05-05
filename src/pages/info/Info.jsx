@@ -1,13 +1,6 @@
 import './Info.css';
-import {useState} from "react";
 
 function Info() {
-    const [heart, setHeart] = useState("");
-
-    //need to fix
-    function handleClick() {
-        setHeart()
-    }
 
   return (
     <>
@@ -16,7 +9,7 @@ function Info() {
 
         <div className="info">
           {/*title & heart*/}
-          <p className="name">Chicken Caesar Salad</p> <span onClick={handleClick} className="heart">♡</span>
+          <p className="name">Chicken Caesar Salad</p> <button onClick={() => setSelected(hearts.fav)} className="heart"> Click</button>
         
           {/*RATING*/}
           <div className="rating">

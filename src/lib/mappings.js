@@ -30,5 +30,4 @@ export const allergens = {
     "Soy":"/src/assets/Allergens/SoyAllergy.jpg",
     "TreeNut":"/src/assets/Allergens/treenutallergy.jpg",
     "Wheat":"/src/assets/Allergens/WheatAllergen.jpg"
-
 }

@@ -1,10 +1,328 @@
+a {
+    display: unset;
+}
 img{
     border-radius: 5%;
 }
 .foodsByDay{
     display: grid;
     grid-template-areas: "everyDayFoods calendarBox";
+    grid-template-columns: 30% 70%;
+}
+.calendarBox{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px 180px;
+    grid-template-rows: 50px 45px 45px;
+    width: 900px;
+    height: 500px;
+    background-color: #F4F4F4;
 }
 .month{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    grid-row: 1;
+    grid-column: 3;
+    align-self: start;
+    margin: 0%;
 }
+/*monday*/
+.monday{
+    grid-row: 2;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.monday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.monday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.monday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+    
+}
+.monday .food2{
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+    
+}
+/*tuesday*/
+.tuesday{
+    grid-row: 2;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.tuesday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.tuesday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.tuesday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+.tuesday .food2{
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+
+/*wednesday*/
+.wednesday{
+    grid-row: 2;
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.wednesday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.wednesday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.wednesday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+.wednesday .food2{
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+
+/*thursday*/
+.thursday{
+    grid-row: 2;
+    grid-column: 4;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.thursday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.thursday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.thursday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+.thursday .food2{
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+/*friday*/
+.friday{
+    grid-row: 2;
+    grid-column: 5;
+    display: grid;
+    grid-template-rows: 10% 10% 40% 40%;
+    height: 450px;
+}
+.friday h2{
+    grid-row: 2;
+    align-self: center;
+}
+.friday h3{
+    grid-row: 1;
+    align-self: center;
+}
+.friday .food1{
+    grid-row: 3;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+.friday .food2{
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+}
+
+
+.food1 h3{
+    background-color: unset;
+    font-weight: normal;
+    font-size: 12px;
+}
+.food1 img{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.food2 h3{
+    background-color: unset;
+    font-weight: normal;
+    font-size: 12px;
+}
+.food2 img{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    object-fit: cover;
+}
+.byDayFoodBox{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 160px;
+    height: 140px;
+}
+.byDayImg a{
+    padding: 0px;
+}
+.everyDayFoods{
+    display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 50px 125px 125px;
+    background-color: #E5EFD2;
+    width: 250px;
+    height: 300px;
+    place-self: center;
+    place-content: center;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.everyDayFoods h2{
+    font-size: 18px;
+    grid-row: 1;
+    grid-column: span 2;
+}
+.dailyImg1{
+    align-self: center;
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+.dailyImg1 a{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    text-align: center;
+}
+.dailyImg1 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+
+.dailyImg2{
+    align-self: center;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.dailyImg2 a{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    text-align: center;
+}
+.dailyImg2 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+.dailyImg3{
+    align-self: center;
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 3;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.dailyImg3 a{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    text-align: center;
+}
+.dailyImg3 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.dailyImg4{
+    align-self: center;
+    justify-self: center;
+    grid-column: 2;
+    grid-row: 3;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.dailyImg4 a{
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    text-align: center;
+}
+.dailyImg4 img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+

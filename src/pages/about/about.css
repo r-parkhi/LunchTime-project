@@ -25,4 +25,9 @@ p {
 
 strong {
   color: #36522a;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.logo {
+  width: 100px;
 }

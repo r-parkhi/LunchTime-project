@@ -2,6 +2,7 @@ import { useQuery } from "@apollo/client";
 import { food } from "../../lib/mappings"
 import { GET_PRODUCT } from "../../lib/queries";
 import "./LargeEntree.css"
+import { NavLink } from "react-router";
 
 export default function LargeEntree({ id }) {
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
@@ -10,10 +11,10 @@ export default function LargeEntree({ id }) {
   if (error) return <p>Error: {error.message}</p>
 
   const imageSrc = food[id];
-  const product = data.product
+  const product = data.product;
 
   return (
-    <div className="specialEntree">
+    <NavLink to={`info/${product.id}`} className="specialEntree">
       <img className="productImage" src={imageSrc}></img>
       <div className="productInfo">
         <div className="productText">
@@ -21,6 +22,6 @@ export default function LargeEntree({ id }) {
           <span className="productRating">{product.rating_average}</span>
         </div>
       </div>
-    </div>
+    </NavLink>
   )
 }

@@ -1,7 +1,4 @@
-/*date*/
-.date {
-    text-align: center;
-}
+
 
 /*labels*/
 .label {
@@ -19,6 +16,20 @@
 .menu {
   display: grid;
   grid-template-areas: "sides entrees drinks";
+}
+
+.homeInfo {
+  display: grid;
+  grid-template-areas: "date waitTime";
+}
+
+.waitTime{
+  width: 200px;
+}
+
+.date{
+  width: 200px;
+  text-align: center;
 }
 
 /*ENTREES*/
@@ -122,4 +133,10 @@
   object-fit: cover;
   width: 75px;
   height: 75px;
+}
+
+
+/*wait time*/
+.waitTime {
+  text-align: right;
 }

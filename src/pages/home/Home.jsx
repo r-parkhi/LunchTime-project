@@ -14,9 +14,13 @@ function Home() {
 
   return (
     <>
-      <h4>{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h4>
-
+        <div className="homeInfo">
+        <h4 className="waitTime">Wait time: 10 min</h4>
+        <h4 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h4>
+        </div>
+        
       <div className="menu">
+
         <div className="sides">
           <h2>Sides</h2>
           <div className="sideItems">

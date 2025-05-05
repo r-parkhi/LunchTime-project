@@ -2,6 +2,9 @@ import { useQuery } from "@apollo/client";
 import LargeEntree from "../../components/items/LargeEntree";
 import { GET_CURRENT_MONTH_MENU } from "../../lib/queries";
 import './Home.css';
+import React from 'react';
+import countdown from '../../components/countdown.jsx';
+
 
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
@@ -14,9 +17,13 @@ function Home() {
 
   return (
     <>
+       <div className="countdown">  
+          <countdown initialSeconds={60} />
+        </div>
         <div className="homeInfo">
-        <h4 className="waitTime">Wait time: 10 min</h4>
-        <h4 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h4>
+        <h3 className="waitTime">Wait time: 10 min</h3>
+        <h3 className="waitTime">Count down: 20min</h3>
+        <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
         </div>
         
       <div className="menu">

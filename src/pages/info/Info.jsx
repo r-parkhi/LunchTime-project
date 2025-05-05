@@ -4,6 +4,9 @@ import { useParams } from "react-router";
 import { GET_PRODUCT } from "../../lib/queries";
 import { food } from "../../lib/mappings";
 
+import Heart from "../../components/Heart.jsx";
+import React, { useState } from "react";
+
 function Info() {
   const { id } = useParams()
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
@@ -14,18 +17,25 @@ function Info() {
   const imageSrc = food[id];
   const product = data.product;
 
+  // favorite
+  const [active, setActive] = useState(false);
+  const handleChangeActive = () => {
+    setActive((previousHeart) => {
+      return !previousHeart;
+    });
+  };
+
   return (
     <div className="page">
       <img className="image" src={imageSrc} alt={product.name + " image"} />
 
       <div className="info">
         {/*title & heart*/}
-        <p className="name">{product.name}</p> <p className="heart">♡</p>
+        <div className="titleContainer">
+          <p className="name">{product.name}</p>
+          <Heart active={active} handleChangeActive={handleChangeActive}/>
+        </div>
 
-        <div className="info">
-          {/*title & heart*/}
-          <p className="name">Chicken Caesar Salad</p> <button onClick={() => setSelected(hearts.fav)} className="heart"> Click</button>
-        
           {/*RATING*/}
           <div className="rating">
             {/*stars*/}
@@ -67,7 +77,6 @@ function Info() {
 
         </div>
       </div>
-    </div>
     </div>
   );
 }

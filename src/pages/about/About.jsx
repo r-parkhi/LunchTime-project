@@ -12,7 +12,6 @@ export default function About() {
 
           <br />
           <br />
-          <br />
           Happy lunching,
         </p>
         <div className="logoText">

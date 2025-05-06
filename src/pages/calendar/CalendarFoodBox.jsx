@@ -1,12 +1,15 @@
-import './Calendar.css'
-import { NavLink } from "react-router"
+import { NavLink } from "react-router";
+import './Calendar.css';
+import { food } from "../../lib/mappings";
 
-function CalendarFoodBox({img = "https://placehold.co/150x100", link = "/", foodname = "placeholder"}){
-    return (
-        <div className='byDayFoodBox'>
-            <h3>{foodname}</h3>
-            <div className='byDayImg'><NavLink to={link}><img src={img}></img></NavLink></div>
-        </div>
-    );
+function CalendarFoodBox({ product }) {
+  const imageSrc = food[product.id];
+
+  return (
+    <NavLink to={`/info/${product.id}`} className='byDayFoodBox'>
+      <h3>{product.name}</h3>
+      <img className="byDayImg" src={imageSrc} />
+    </NavLink>
+  );
 }
-export default CalendarFoodBox
+export default CalendarFoodBox;

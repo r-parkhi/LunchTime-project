@@ -20,15 +20,16 @@ export const food = {
     "64ef7ce7e96f1ed3af81b3ae":"/src/assets/Entree-Items/Cheeseburger.jpg"
 }
 export const descriptions = {
-    "64ef7ce7e96f1ed3af81b3a1":"/src/assets/Entree-Items/DeliHamSandwich.jpg", 
-    "64ef7ce7e96f1ed3af81b3a0":"/src/assets/Entree-Items/ChickenRiceBowl.jpg",
-    "64ef7ce7e96f1ed3af81b3a2":"/src/assets/Entree-Items/cheesepizza.jpg",
-    "64ef7ce7e96f1ed3af81b3a3":"/src/assets/Entree-Items/PepperoniPizza.jpg",
-    "650b4b30e96f1e0dd8c736eb":"/src/assets/Entree-Items/PBJ.jpg",
-    "64ef7ce7e96f1ed3af81b3a4":"/src/assets/Entree-Items/HummusBistro.jpg",
-    "660310a0e96f1ec2df04a5b3":"/src/assets/Entree-Items/BeefTeriyakiBowl.jpg",
-    "64ef7ce7e96f1ed3af81b3a8":"/src/assets/Entree-Items/caesarsalad.jpg",
-    "67d49325e96f1ee52b0572f4":"/src/assets/Entree-Items/MacNCheese.jpg",
+    
+    "64ef7ce7e96f1ed3af81b3a1":"The Deli Ham Sandwich is a classic combination of ham, cheese, lettuce and tomato packed together within an artisan bun.", 
+    "64ef7ce7e96f1ed3af81b3a0":"The House Chicken and Rice Bowl uses a special house sauce to coat delicious chicken on top of brown rice.",
+    "64ef7ce7e96f1ed3af81b3a2":"Pizza is a staple food for many, with Cheese Pizza is mainly for those who don't like toppings.",
+    "64ef7ce7e96f1ed3af81b3a3":"Pizza is a staple food for many, with Pepperoni Pizza being a favorite combination.",
+    "650b4b30e96f1e0dd8c736eb":"Spreading peanut-butter and jelly on bread is a classic and quick meal. Uncrustables makes it even easier to enjoy by putting the PB and J inside a white bread pouch.",
+    "64ef7ce7e96f1ed3af81b3a4":"The Hummus Bistro Pack includes a string cheese stick and  a pack of baby carrots along with crackers to dip in a bowl of hummus.",
+    "660310a0e96f1ec2df04a5b3":"The Beef Teriyaki Bowl allows the sweet teriyaki sauce on the beef to mix well with the brown rice.",
+    "64ef7ce7e96f1ed3af81b3a8":"The Chicken Caesar Salad is spin on the healthy staple, including chicken and a dinner roll. ",
+    "67d49325e96f1ee52b0572f4":"The Mac and Cheese melts creamy cheese sauce over pasta, creating a flavorful and comforting dish, served with a garlic knot.",
     "64ef7ce7e96f1ed3af81b3ab":"The crispy chicken sandwich provides a spicy option to the table to those who want it.",
     "64ef7ce7e96f1ed3af81b3a7":"Pupusa is a flatbread stuffed with beans and cheese, a nutritous yet scrumptious combo.",
     "670ec9c2e96f1e7cf45ce518":"The Taco Salad brings several flavors to the plate with beef and salad.",

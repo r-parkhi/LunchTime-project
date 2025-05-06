@@ -17,10 +17,17 @@
     display: inline;
 }
 
-.heart {
-    font-size: 45px;
+/* FAVORITE */
+.toggleWrapper {
     display: inline;
+    margin-left: 10px;
     cursor: pointer;
+}
+.active {
+    width: 50px;
+}
+.inactive {
+    width: 50px;
 }
 
 .rating {
@@ -34,7 +41,6 @@
 .submitBtn {
    color: red;
 }
-
 
 .desc {
     line-height: 20px;

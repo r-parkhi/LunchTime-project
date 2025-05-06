@@ -49,8 +49,8 @@ function Info() {
         {/*ALLERGENS*/}
         <h3>Allergens:</h3>
         <div className="allergenIcons">
-          <img src="https://placehold.co/30x30"></img>Milk
-          <img src="https://placehold.co/30x30"></img>Soy
+          <img src="../src/assets/Allergens/DairyAllergy.jpg"></img>
+          <img src="../src/assets/Allergens/SoyAllergy.jpg"></img>
         </div>
 
         {/*NUTIRTION FACTS*/}
@@ -78,7 +78,7 @@ function Info() {
 
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

@@ -17,7 +17,9 @@ export const food = {
     "6532d0cbe96f1ee4a746b881":"/src/assets/Entree-Items/PulledPorkSandwich.jpg",
     "660310a1e96f1ec2df04a5b4":"/src/assets/Entree-Items/Chipotle-Ranch-Taco-Salad.jpg",
     "670ec9c2e96f1e7cf45ce517":"/src/assets/Entree-Items/TSOChickenRiceBowl.jpg",
-    "64ef7ce7e96f1ed3af81b3ae":"/src/assets/Entree-Items/Cheeseburger.jpg"
+    "64ef7ce7e96f1ed3af81b3ae":"/src/assets/Entree-Items/Cheeseburger.jpg",
+    "680be9f7e96f1e0aa395c82f":"/src/assets/Entree-Items/ChickenEnchilada.jpg"
+    
 }
 export const descriptions = {
     
@@ -39,7 +41,9 @@ export const descriptions = {
     "6532d0cbe96f1ee4a746b881":"Pulled pork in a sandwich brings a delightful meat into an easy to consume sandwich.",
     "660310a1e96f1ec2df04a5b4":"The Taco Salad brings several flavors to the plate with beef and salad with the addition of ranch.",
     "670ec9c2e96f1e7cf45ce517":"The General TSO Chicken and Rice bowl uses a special sauce to coat delicious chicen on top of brown rice.",
-    "64ef7ce7e96f1ed3af81b3ae":"The Cheeseburger is the standard single patty burger slathered with delectable cheese, offering a great lunch to any student."
+    "64ef7ce7e96f1ed3af81b3ae":"The Cheeseburger is the standard single patty burger slathered with delectable cheese, offering a great lunch to any student.",
+    "680be9f7e96f1e0aa395c82f":"Chicken Enchilada is a savory combination of chicken, beans, and cheese."
+
 }
 export const allergens = {
     "Dairy":"/src/assets/Allergens/DairyAllergy.jpg",

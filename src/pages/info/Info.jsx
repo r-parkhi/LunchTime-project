@@ -37,7 +37,6 @@ function Info() {
           <Heart active={active} handleChangeActive={handleChangeActive} />
         </div>
 
-<<<<<<< HEAD
         {/*RATING*/}
         <div className="rating">
           {/*stars*/}
@@ -50,26 +49,9 @@ function Info() {
         {/*ALLERGENS*/}
         <h3>Allergens:</h3>
         <div className="allergenIcons">
-          <img src="https://placehold.co/30x30"></img>Milk
-          <img src="https://placehold.co/30x30"></img>Soy
+          <img src="../src/assets/Allergens/DairyAllergy.jpg"></img>
+          <img src="../src/assets/Allergens/SoyAllergy.jpg"></img>
         </div>
-=======
-          {/*RATING*/}
-          <div className="rating">
-            {/*stars*/}
-            <p className="stars">★ ★ ★ ★ ★</p>
-            {/*button*/}
-            <button className="submitBtn">Submit a rating</button>
-          </div>
-          
-          <p className="desc">Salad kit with romaine lettuce, grilled chicken, croutons, Parmesan cheese, and a Caesar salad dressing packet.</p>
-          {/*ALLERGENS*/}
-          <h3>Allergens:</h3>
-          <div className="allergenIcons">
-            <img src="DairyAllergy.jpg"></img>Milk
-            <img src="SoyAllergy.jpg"></img>Soy
-          </div>
->>>>>>> 55ec8dd (allergens images)
 
         {/*NUTIRTION FACTS*/}
         <h3>Nutrition Facts:</h3>
@@ -96,7 +78,7 @@ function Info() {
 
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

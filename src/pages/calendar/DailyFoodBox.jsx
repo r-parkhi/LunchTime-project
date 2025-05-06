@@ -1,9 +1,14 @@
 import './Calendar.css'
 import { NavLink } from "react-router"
+import { food } from "../../lib/mappings";
 
-function DailyFoodBox({ img = "https://placehold.co/100x100", link = "/", label = "dailyImg1" }) {
+function DailyFoodBox({ product }) {
+  const imageSrc = food[product.id];
+
   return (
-    <div className={label}><NavLink to={link}><img src={img}></img></NavLink></div>
+    <NavLink to={`/info/${product.id}`}>
+      <span className="label">{product.name}</span><img className="dailyImg" src={imageSrc}></img>
+    </NavLink>
   );
 }
 export default DailyFoodBox

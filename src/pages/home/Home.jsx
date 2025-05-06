@@ -20,10 +20,12 @@ function Home() {
         <div className="countdown">  
           <countdown initialSeconds={60} />
         </div>
-        <div className="homeInfo">
-        <h3 className="waitTime">Wait time: 10 min</h3>
-        <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
-        <h3 className="countdown">Count Down:</h3>
+        <div className="infoContainer">
+          <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
+          <div className="times">
+            <h3>Line wait time: <br /> <span className="units">~10 m</span></h3>
+            <h3>Lunch starts in: <br /> <span className="units">1 h 20 m</span></h3>
+          </div>
         </div>
         
       <div className="menu">

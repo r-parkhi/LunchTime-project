@@ -23,7 +23,6 @@ import ChocMilk from "../../assets/drinks/chocmilk.png";
 import OrangeJuice from "../../assets/drinks/orangejuice.jpeg";
 import BerryJuice from "../../assets/drinks/berryjuice.png";
 
-
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
 

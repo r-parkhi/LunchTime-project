@@ -6,6 +6,24 @@ import React from 'react';
 import countdown from '../../components/countdown.jsx';
 
 
+import Banana from "../../assets/sides/banana.jpeg";
+import Grapes from "../../assets/sides/grapes.jpeg";
+import Carrots from "../../assets/sides/carrots.webp";
+import Strawberries from "../../assets/sides/strawberries.jpeg";
+import Celery from "../../assets/sides/celery.jpeg";
+import Apples from "../../assets/sides/redapples.webp";
+
+import CheesePizza from "../../assets/entrees/daily/cheesepizza.jpg";
+import PepperoniPizza from "../../assets/entrees/daily/pepperonipizza.webp";
+import Uncrustable from "../../assets/entrees/daily/uncrustable.jpg";
+import HummusBistroPack from "../../assets/entrees/daily/hummusbistropack.png";
+
+import Milk from "../../assets/drinks/milk.png";
+import ChocMilk from "../../assets/drinks/chocmilk.png";
+import OrangeJuice from "../../assets/drinks/orangejuice.jpeg";
+import BerryJuice from "../../assets/drinks/berryjuice.png";
+
+
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
 
@@ -33,12 +51,12 @@ function Home() {
         <div className="sides">
           <h2>Sides</h2>
           <div className="sideItems">
-            <div><span className="label">Bananas</span><img src="src/assets/sides/banana.jpeg"></img></div>
-            <div><span className="label">Grapes</span><img src="src/assets/sides/grapes.jpeg"></img></div>
-            <div><span className="label">Carrots</span><img src="src/assets/sides/carrots.webp"></img></div>
-            <div><span className="label">Strawberries</span><img src="src/assets/sides/strawberries.jpeg"></img></div>
-            <div><span className="label">Celery</span><img src="src/assets/sides/celery.jpeg"></img></div>
-            <div><span className="label">Apples</span><img src="src/assets/sides/redapples.webp"></img></div>
+            <div><span className="label">Bananas</span><img src={Banana}></img></div>
+            <div><span className="label">Grapes</span><img src={Grapes}></img></div>
+            <div><span className="label">Carrots</span><img src={Carrots}></img></div>
+            <div><span className="label">Strawberries</span><img src={Strawberries}></img></div>
+            <div><span className="label">Celery</span><img src={Celery}></img></div>
+            <div><span className="label">Apples</span><img src={Apples}></img></div>
           </div>
         </div>
 
@@ -51,10 +69,10 @@ function Home() {
               })}
             </div>
             <div className="daily">
-              <div><span className="label">Cheese Pizza</span><img src="src/assets/entrees/daily/cheesepizza.jpg"></img></div>
-              <div><span className="label">Pepperoni Pizza</span><img src="src/assets/entrees/daily/pepperonipizza.webp"></img></div>
-              <div><span className="label">Uncrustables</span><img src="src/assets/entrees/daily/uncrustable.jpg"></img></div>
-              <div><span className="label">Hummus Bistro Pack</span><img src="src/assets/entrees/daily/hummusbistropack.png"></img></div>
+              <div><span className="label">Cheese Pizza</span><img src={CheesePizza}></img></div>
+              <div><span className="label">Pepperoni Pizza</span><img src={PepperoniPizza}></img></div>
+              <div><span className="label">Uncrustables</span><img src={Uncrustable}></img></div>
+              <div><span className="label">Hummus Bistro Pack</span><img src={HummusBistroPack}></img></div>
             </div>
           </div>
         </div>
@@ -62,10 +80,10 @@ function Home() {
         <div className="drinks">
           <h2>Drinks</h2>
           <div className="drinkItems">
-            <div><span className="label">Low Fat Milk</span><img src="src/assets/drinks/milk.png"></img></div>
-            <div><span className="label">Chocolate Milk</span><img src="src/assets/drinks/chocmilk.png"></img></div>
-            <div><span className="label">Orange Juice</span><img src="src/assets/drinks/orangejuice.jpeg"></img></div>
-            <div><span className="label">Apple Berry Juice</span><img src="src/assets/drinks/berryjuice.png"></img></div>
+            <div><span className="label">Low Fat Milk</span><img src={Milk}></img></div>
+            <div><span className="label">Chocolate Milk</span><img src={ChocMilk}></img></div>
+            <div><span className="label">Orange Juice</span><img src={OrangeJuice}></img></div>
+            <div><span className="label">Apple Berry Juice</span><img src={BerryJuice}></img></div>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 .page {
     display: grid;
-    grid-template-columns: 550px auto;
+    grid-template-columns: 550px auto auto;
 }
 
 .image {
@@ -12,7 +12,7 @@
 }
 
 .name {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     display: inline;
 }
@@ -33,25 +33,28 @@
 .rating {
     display: grid;
     grid-template-columns: 180px auto;
+    margin-top: -40px;
 }
 .stars {
     color: gold;
     font-size: 30px;
 }
 .submitBtn {
-   color: red;
+    color: black;
+    border-radius: 50px;
 }
 
 .desc {
     line-height: 20px;
     width: 450px;
-    margin-top: 0px;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 .allergenIcons img {
     object-fit: cover;
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
 }
 
 /*NUTRITION FACTS*/

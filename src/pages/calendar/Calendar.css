@@ -2,7 +2,7 @@ a:-webkit-any-link {
   display: unset;
 }
 img {
-  border-radius: 5%;
+  border-radius: 10px;
 }
 .foodsByDay {
   display: grid;
@@ -15,6 +15,9 @@ img {
   width: 900px;
   background-color: #f4f4f4;
   padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .daysOfWeekBox {
   display: flex;
@@ -115,8 +118,29 @@ img {
 }
 .dailyImg {
   object-fit: cover;
-  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
   width: 80px;
   height: 80px;
-  border-radius: 10px;
+  border-radius: 15px;
+}
+.dailyFoodBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+.dailyFoodBox > h3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 0.8em;
+  height: 20px;
+  text-overflow: ellipsis;
+  margin: 5px 0 5px 0;
 }

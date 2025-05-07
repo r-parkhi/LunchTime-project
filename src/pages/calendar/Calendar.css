@@ -118,8 +118,29 @@ img {
 }
 .dailyImg {
   object-fit: cover;
-  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
   width: 80px;
   height: 80px;
-  border-radius: 10px;
+  border-radius: 15px;
+}
+.dailyFoodBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+.dailyFoodBox > h3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 0.8em;
+  height: 20px;
+  text-overflow: ellipsis;
+  margin: 5px 0 5px 0;
 }

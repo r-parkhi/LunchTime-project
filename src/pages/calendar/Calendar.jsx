@@ -47,10 +47,10 @@ export default function Calendar() {
       <div className="foodsByDay">
         <div className="everyDayFoods">
           <h2>Served Every Day</h2>
-          <div className="dailyDiv"><span className="label">Cheese Pizza</span><img className="dailyImg" src="src/assets/entrees/daily/cheesepizza.jpg"></img></div>
-          <div className="dailyDiv"><span className="label">Pepperoni Pizza</span><img className="dailyImg" src="src/assets/entrees/daily/pepperonipizza.webp"></img></div>
-          <div className="dailyDiv"><span className="label">Uncrustables</span><img className="dailyImg" src="src/assets/entrees/daily/uncrustable.jpg"></img></div>
-          <div className="dailyDiv"><span className="label">Hummus Bistro Pack</span><img className="dailyImg" src="src/assets/entrees/daily/hummusbistropack.png"></img></div>
+          {menuByDay[1].slice(2, 3).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
+          {menuByDay[1].slice(3, 4).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
+          {menuByDay[1].slice(4, 5).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
+          {menuByDay[1].slice(5, 6).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
         </div>
         <div className='calendarBox'>
           <h1 className='month'>April 2025</h1>

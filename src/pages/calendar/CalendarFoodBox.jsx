@@ -3,7 +3,7 @@ import './Calendar.css';
 import { food } from "../../lib/mappings";
 
 function CalendarFoodBox({ product }) {
-  const imageSrc = food[product.id];
+  const imageSrc = new URL(food[product.id], import.meta.url);
 
   return (
     <NavLink to={`/info/${product.id}`} className='byDayFoodBox'>

@@ -3,6 +3,7 @@ import LargeEntree from "../../components/items/LargeEntree";
 import { GET_CURRENT_MONTH_MENU } from "../../lib/queries";
 import './Home.css';
 import React from 'react';
+import Countdown from "../../components/countdown";
 
 
 import Banana from "../../assets/sides/banana.jpeg";
@@ -33,14 +34,11 @@ function Home() {
 
   return (
     <>
-      <div className="countdown">
-        <countdown initialSeconds={60} />
-      </div>
       <div className="infoContainer">
         <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
         <div className="times">
           <h3>Line wait time: <br /> <span className="units">~10 m</span></h3>
-          <h3>Lunch starts in: <br /> <span className="units">1 h 20 m</span></h3>
+          <h3>Lunch starts in: <br /> <span className="units"><Countdown targetHour={11} targetMinute={42} /></span></h3>
         </div>
       </div>
 

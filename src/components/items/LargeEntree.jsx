@@ -10,7 +10,7 @@ export default function LargeEntree({ id }) {
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
 
-  const imageSrc = food[id];
+  const imageSrc = new URL(food[id], import.meta.url);
   const product = data.product;
 
   return (

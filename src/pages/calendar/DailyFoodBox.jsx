@@ -3,7 +3,7 @@ import { NavLink } from "react-router"
 import { food } from "../../lib/mappings";
 
 function DailyFoodBox({ product }) {
-  const imageSrc = food[product.id];
+  const imageSrc = new URL(food[product.id], import.meta.url);
 
   return (
     <NavLink to={`/info/${product.id}`} className='dailyFoodBox'>

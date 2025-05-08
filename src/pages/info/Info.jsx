@@ -7,6 +7,11 @@ import { descriptions, food } from "../../lib/mappings";
 import Heart from "../../components/Heart.jsx";
 import React, { useState } from "react";
 
+
+import DairyAllergy from "../../assets/Allergens/DairyAllergy.jpg";
+import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
+
+
 function Info() {
   const { id } = useParams()
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
@@ -20,7 +25,7 @@ function Info() {
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
 
-  const imageSrc = food[id];
+  const imageSrc = new URL(food[id], import.meta.url);
   const description = descriptions[id];
   const product = data.product;
 
@@ -49,8 +54,8 @@ function Info() {
         {/*ALLERGENS*/}
         <h3>Allergens:</h3>
         <div className="allergenIcons">
-          <img src="../src/assets/Allergens/DairyAllergy.jpg"></img>
-          <img src="../src/assets/Allergens/SoyAllergy.jpg"></img>
+          <img src={DairyAllergy}></img>
+          <img src={SoyAllergy}></img>
         </div>
 
         {/*NUTIRTION FACTS*/}
@@ -78,7 +83,7 @@ function Info() {
 
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 

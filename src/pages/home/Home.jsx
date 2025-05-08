@@ -3,7 +3,6 @@ import LargeEntree from "../../components/items/LargeEntree";
 import { GET_CURRENT_MONTH_MENU } from "../../lib/queries";
 import './Home.css';
 import React from 'react';
-import countdown from '../../components/countdown.jsx';
 
 
 import Banana from "../../assets/sides/banana.jpeg";
@@ -23,7 +22,6 @@ import ChocMilk from "../../assets/drinks/chocmilk.png";
 import OrangeJuice from "../../assets/drinks/orangejuice.jpeg";
 import BerryJuice from "../../assets/drinks/berryjuice.png";
 
-
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
 
@@ -35,17 +33,17 @@ function Home() {
 
   return (
     <>
-        <div className="countdown">  
-          <countdown initialSeconds={60} />
+      <div className="countdown">
+        <countdown initialSeconds={60} />
+      </div>
+      <div className="infoContainer">
+        <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
+        <div className="times">
+          <h3>Line wait time: <br /> <span className="units">~10 m</span></h3>
+          <h3>Lunch starts in: <br /> <span className="units">1 h 20 m</span></h3>
         </div>
-        <div className="infoContainer">
-          <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
-          <div className="times">
-            <h3>Line wait time: <br /> <span className="units">~10 m</span></h3>
-            <h3>Lunch starts in: <br /> <span className="units">1 h 20 m</span></h3>
-          </div>
-        </div>
-        
+      </div>
+
       <div className="menu">
 
         <div className="sides">

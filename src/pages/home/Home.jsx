@@ -1,5 +1,6 @@
 import { useQuery } from "@apollo/client";
 import LargeEntree from "../../components/items/LargeEntree";
+import SmallEntree from "../../components/items/SmallEntree";
 import { GET_CURRENT_MONTH_MENU } from "../../lib/queries";
 import './Home.css';
 import React from 'react';
@@ -11,11 +12,6 @@ import Carrots from "../../assets/sides/carrots.webp";
 import Strawberries from "../../assets/sides/strawberries.jpeg";
 import Celery from "../../assets/sides/celery.jpeg";
 import Apples from "../../assets/sides/redapples.webp";
-
-import CheesePizza from "../../assets/entrees/daily/cheesepizza.jpg";
-import PepperoniPizza from "../../assets/entrees/daily/pepperonipizza.webp";
-import Uncrustable from "../../assets/entrees/daily/uncrustable.jpg";
-import HummusBistroPack from "../../assets/entrees/daily/hummusbistropack.png";
 
 import Milk from "../../assets/drinks/milk.png";
 import ChocMilk from "../../assets/drinks/chocmilk.png";
@@ -67,10 +63,18 @@ function Home() {
               })}
             </div>
             <div className="daily">
-              <div><span className="label">Cheese Pizza</span><img src={CheesePizza}></img></div>
-              <div><span className="label">Pepperoni Pizza</span><img src={PepperoniPizza}></img></div>
-              <div><span className="label">Uncrustables</span><img src={Uncrustable}></img></div>
-              <div><span className="label">Hummus Bistro Pack</span><img src={HummusBistroPack}></img></div>
+            {todayEntrees.slice(2, 3).map((item) => {
+                return <SmallEntree key={item.product.id} id={item.product.id} />
+              })}
+              {todayEntrees.slice(3, 4).map((item) => {
+                return <SmallEntree key={item.product.id} id={item.product.id} />
+              })}
+              {todayEntrees.slice(4, 5).map((item) => {
+                return <SmallEntree key={item.product.id} id={item.product.id} />
+              })}
+              {todayEntrees.slice(5, 6).map((item) => {
+                return <SmallEntree key={item.product.id} id={item.product.id} />
+              })}
             </div>
           </div>
         </div>

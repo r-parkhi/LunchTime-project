@@ -47,6 +47,7 @@ function Info() {
 
         <p className="desc">{description}</p>
         {/*ALLERGENS*/}
+        <div>
         <h3>Allergens:</h3>
         <div className="allergenIcons">
           <img src="../src/assets/Allergens/DairyAllergy.jpg"></img>
@@ -75,10 +76,11 @@ function Info() {
           <span className="main">Calcium: {product.prod_calcium}mg</span>
           <span className="main">Vitamin A: {product.prod_vita_iu}IU</span>
           <span className="main">Vitamin C: {product.prod_vitc}mg</span>
-
         </div>
       </div>
       </div>
+      </div>
+
   );
 }
 

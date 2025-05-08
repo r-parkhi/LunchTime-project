@@ -1,24 +1,40 @@
 import React, { useState, useEffect } from 'react';
 
-const countdown = ({ initialSeconds }) => {
-  const [seconds, setSeconds] = useState(initialSeconds);
+const Countdown = ({ targetHour, targetMinute }) => {
+  const calculateTimeLeft = () => {
+    const now = new Date();
+    const targetTime = new Date();
+    targetTime.setHours(targetHour, targetMinute, 0, 0);
+
+    if (targetTime < now) {
+      targetTime.setDate(targetTime.getDate() + 1); // Move to the next day
+    }
+
+    const difference = targetTime - now;
+    const timeLeft = {
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
-    if (seconds > 0) {
-      const timerId = setInterval(() => {
-        setSeconds(prevSeconds => prevSeconds - 1);
-      }, 1000);
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
 
-      return () => clearInterval(timerId);
-    }
-  }, [seconds]);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
-    <div>
-      <h3>Countdown Timer</h3>
-      <p>{seconds} seconds remaining</p>
-    </div>
+    <>
+        {timeLeft.hours}h {timeLeft.minutes}m
+    </>
   );
 };
 
-export default countdown;
+export default Countdown;

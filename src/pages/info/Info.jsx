@@ -52,14 +52,18 @@ function Info() {
 
         <p className="desc">{description}</p>
         {/*ALLERGENS*/}
-        <h3>Allergens:</h3>
+        <div>
+
+        <div className="AllergenNutrition">
+        <div className="Allergens"><h3>Allergens:</h3>
         <div className="allergenIcons">
           <img src={DairyAllergy}></img>
           <img src={SoyAllergy}></img>
         </div>
+        </div>
 
         {/*NUTIRTION FACTS*/}
-        <h3>Nutrition Facts:</h3>
+        <div className="Nutrition"><h3>Nutrition Facts:</h3>
         <div className="nutritionFacts">
           {/*column 1*/}
           <span className="main">Calories: {product.prod_calories}kcal</span>
@@ -80,10 +84,13 @@ function Info() {
           <span className="main">Calcium: {product.prod_calcium}mg</span>
           <span className="main">Vitamin A: {product.prod_vita_iu}IU</span>
           <span className="main">Vitamin C: {product.prod_vitc}mg</span>
-
+        
+        </div>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
+      </div>
   );
 }
 

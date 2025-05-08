@@ -1,5 +1,3 @@
-
-
 /*labels*/
 .label {
   font-size: 12px;
@@ -18,18 +16,24 @@
   grid-template-areas: "sides entrees drinks";
 }
 
-.homeInfo {
+.infoContainer {
   display: grid;
-  grid-template-areas: "date waitTime";
+  grid-template-areas: "date times";
+  margin-bottom: -150px;
 }
 
-.waitTime{
-  width: 200px;
-}
-
-.date{
-  width: 200px;
+.date {
   text-align: center;
+  margin-left: 520px;
+}
+
+.times {
+  text-align: right;
+  margin-right: 30px;
+}
+.units {
+  color: #CF4D6F;
+  font-size: 30px;
 }
 
 /*ENTREES*/
@@ -133,14 +137,4 @@
   object-fit: cover;
   width: 75px;
   height: 75px;
-}
-
-
-/*wait time*/
-.waitTime {
-  text-align: right;
-}
-
-.countdown {
-  text-align: left;
 }

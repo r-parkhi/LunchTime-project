@@ -22,34 +22,39 @@
 .toggleWrapper {
     display: inline;
     margin-left: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 .active {
-    width: 50px;
+    width: 60px;
 }
 .inactive {
-    width: 50px;
+    width: 60px;
 }
 
 .rating {
     display: grid;
-    grid-template-columns: 180px auto;
-    margin-top: -20px;
+    grid-template-columns: 220px auto;
+    margin-bottom: 40px;
 }
 .stars {
     color: gold;
     font-size: 30px;
 }
 .submitBtn {
-    color: black;
-    border-radius: 50px;
+    color: white;
+    background-color: #CF4D6F;
+    border-radius: 10px;
+    text-align: center;
+    width: 140px;
+    cursor: pointer;
 }
 
 .desc {
-    line-height: 20px;
+    line-height: 25px;
     width: 450px;
     margin-top: -20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .allergenIcons{
@@ -58,15 +63,13 @@
 }
 .hasAllergen{
     object-fit: cover;
-    width: 80px;
-    height: 80px;
-
+    width: 70px;
+    height: 70px;
 }
 .noAllergen{
     height: 0px !important;
     width: 0px !important;
     overflow: hidden !important;
-
 }
 
 /*NUTRITION FACTS*/

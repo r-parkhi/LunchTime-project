@@ -52,10 +52,21 @@
     margin-bottom: 40px;
 }
 
-.allergenIcons img {
+.allergenIcons{
+    display: flex;
+    flex-direction: row;
+}
+.hasAllergen{
     object-fit: cover;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+
+}
+.noAllergen{
+    height: 0px !important;
+    width: 0px !important;
+    overflow: hidden !important;
+
 }
 
 /*NUTRITION FACTS*/

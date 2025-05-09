@@ -9,6 +9,7 @@
     height: 380px;
     place-self: center;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .name {
@@ -33,7 +34,7 @@
 .rating {
     display: grid;
     grid-template-columns: 180px auto;
-    margin-top: -40px;
+    margin-top: -20px;
 }
 .stars {
     color: gold;
@@ -65,6 +66,7 @@
     height: 0px !important;
     width: 0px !important;
     overflow: hidden !important;
+
 }
 
 /*NUTRITION FACTS*/
@@ -82,4 +84,10 @@
 .nutritionFacts .sub {
     font-size: 12px;
     margin-left: 15px;
+}
+
+.AllergenNutrition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }

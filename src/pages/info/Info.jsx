@@ -3,10 +3,10 @@ import './Info.css';
 import { useParams } from "react-router";
 import { GET_PRODUCT } from "../../lib/queries";
 import { descriptions, food } from "../../lib/mappings";
-
-import Heart from "../../components/Heart.jsx";
 import React, { useState } from "react";
 
+import Heart from "../../components/Heart.jsx";
+import StarRating from "../../components/StarRating.jsx";
 
 import DairyAllergy from "../../assets/Allergens/DairyAllergy.jpg";
 import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
@@ -16,20 +16,25 @@ function Info() {
   const { id } = useParams()
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
   const [active, setActive] = useState(false);
+
+  // heart
   const handleChangeActive = () => {
     setActive((previousHeart) => {
       return !previousHeart;
     });
   };
 
+  // rating alert
+  const handleClick = () => {
+    alert('Rating submitted \n (feature under construction)');
+  };
+
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
 
-  const imageSrc = new URL(food[id], import.meta.url);
+  const imageSrc = food[id];
   const description = descriptions[id];
   const product = data.product;
-
-  // favorite
 
   return (
     <div className="page">
@@ -45,9 +50,9 @@ function Info() {
         {/*RATING*/}
         <div className="rating">
           {/*stars*/}
-          <p className="stars">★ ★ ★ ★ ★</p>
+          <StarRating />
           {/*button*/}
-          <button className="submitBtn">Submit a rating</button>
+          <button onClick={handleClick} className="submitBtn">Submit a rating</button>
         </div>
 
         <p className="desc">{description}</p>
@@ -83,7 +88,7 @@ function Info() {
 
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

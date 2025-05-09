@@ -5,6 +5,7 @@ import "./LargeEntree.css"
 import { NavLink } from "react-router";
 
 export default function LargeEntree({ id }) {
+
   const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
 
   if (loading) return <p>Loading...</p>

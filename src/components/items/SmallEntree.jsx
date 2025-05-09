@@ -16,7 +16,7 @@ function SmallEntree({ id }) {
   
   
   return (
-    <NavLink to={`/info/${product.id}`} className='dailyFoodBox'>
+    <NavLink to={`/info/${product.id}`} className='everydayFoodBox'>
       <h3>{product.name}</h3>
       <img className="dailyImg" src={imageSrc}></img>
     </NavLink>

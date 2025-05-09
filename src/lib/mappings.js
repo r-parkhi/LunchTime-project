@@ -3,7 +3,7 @@ export const food = {
     "64ef7ce7e96f1ed3af81b3a0":"/Entree-Items/ChickenRiceBowl.jpg",
     "64ef7ce7e96f1ed3af81b3a2":"/Entree-Items/cheesepizza.jpg",
     "64ef7ce7e96f1ed3af81b3a3":"/Entree-Items/PepperoniPizza.jpg",
-    "650b4b30e96f1e0dd8c736eb":"/entrees/daily/uncrustable.jpg",
+    "650b4b30e96f1e0dd8c736eb":"/Entree-Items/uncrustable.jpg",
     "64ef7ce7e96f1ed3af81b3a4":"/Entree-Items/HummusBistro.jpg",
     "660310a0e96f1ec2df04a5b3":"/Entree-Items/BeefTeriyakiBowl.jpg",
     "64ef7ce7e96f1ed3af81b3a8":"/Entree-Items/caesarsalad.jpg",

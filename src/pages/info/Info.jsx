@@ -71,6 +71,9 @@ function Info() {
           <img className={product.prod_allergens.includes("fish") ? "hasAllergen": "noAllergen"} src={FishAllergy}></img>
           <img className={product.prod_allergens.includes("peanut") ? "hasAllergen": "noAllergen"} src={PeanutAllergy}></img>
           <img className={product.prod_allergens.includes("pork") ? "hasAllergen": "noAllergen"} src={PorkAllergy}></img>
+          <img className={product.prod_allergens.includes("sesame") ? "hasAllergen": "noAllergen"} src={SesameAllergy}></img>
+          <img className={product.prod_allergens.includes("shellfish") ? "hasAllergen": "noAllergen"} src={ShellFishAllergy}></img>
+          <img className={product.prod_allergens.includes("treenut") ? "hasAllergen": "noAllergen"} src={TreeNutAllergy}></img>
           <img className={product.prod_allergens.includes("wheat") ? "hasAllergen": "noAllergen"} src={WheatAllergy}></img>
           
         </div>

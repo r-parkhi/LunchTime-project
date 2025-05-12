@@ -64,3 +64,16 @@ export const toggleFavorite = async (userId, productId, state) => {
     await addDoc(userFavoritesCollection, favoriteObj);
   }
 }
+
+export const getUserItemFavoritedState = async (userId, productId) => {
+  const existingFavorite = await getDocs(query(userFavoritesCollection,
+    where("userId", "==", userId),
+    where("productId", "==", productId)
+  ));
+
+  if (existingFavorite.empty) {
+    return null;
+  }
+
+  return existingFavorite.docs[0].data().state;
+}

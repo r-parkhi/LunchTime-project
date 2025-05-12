@@ -68,8 +68,14 @@ img {
   text-align: center;
   justify-content: center;
   width: 160px;
+  height: 200px;
   color: black;
   text-decoration: none;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.byDayFoodBox:hover {
+  background-color: #f2becd;
 }
 
 .byDayFoodBox > h3 {
@@ -133,6 +139,11 @@ img {
   margin-bottom: 20px;
   color: black;
   text-decoration: none;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.dailyFoodBox:hover{
+  background-color: #f2becd;
 }
 .dailyFoodBox > h3 {
   display: flex;

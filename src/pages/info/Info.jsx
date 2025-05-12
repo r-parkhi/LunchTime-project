@@ -3,33 +3,49 @@ import './Info.css';
 import { useParams } from "react-router";
 import { GET_PRODUCT } from "../../lib/queries";
 import { descriptions, food } from "../../lib/mappings";
-
-import Heart from "../../components/Heart.jsx";
 import React, { useState } from "react";
 
+import Heart from "../../components/Heart.jsx";
+import StarRating from "../../components/StarRating.jsx";
 
 import DairyAllergy from "../../assets/Allergens/DairyAllergy.jpg";
 import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
+import EggAllergy from "../../assets/Allergens/EggAllergy.jpg";
+import FishAllergy from "../../assets/Allergens/FishAllergen.jpg";
+import PeanutAllergy from "../../assets/Allergens/PeanutAllergy.jpg";
+import PorkAllergy from "../../assets/Allergens/PorkAllergy.png";
+import SesameAllergy from "../../assets/Allergens/SesameAllergy.jpg";
+import ShellFishAllergy from "../../assets/Allergens/ShellFishAllergy.jpg";
+import TreeNutAllergy from "../../assets/Allergens/treenutallergy.jpg";
+import WheatAllergy from "../../assets/Allergens/WheatAllergen.jpg";
 
 
 function Info() {
   const { id } = useParams()
-  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
+  const {prod_allergens} = useParams()
+  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id, prod_allergens } });
   const [active, setActive] = useState(false);
+
+  // heart
   const handleChangeActive = () => {
     setActive((previousHeart) => {
       return !previousHeart;
     });
   };
 
+  // rating alert
+  const handleClick = () => {
+    alert('Rating submitted \n (feature under construction)');
+  };
+
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
 
-  const imageSrc = new URL(food[id], import.meta.url);
+  const imageSrc = food[id];
   const description = descriptions[id];
   const product = data.product;
 
-  // favorite
+  console.log(product.prod_allergens);
 
   return (
     <div className="page">
@@ -45,9 +61,9 @@ function Info() {
         {/*RATING*/}
         <div className="rating">
           {/*stars*/}
-          <p className="stars">★ ★ ★ ★ ★</p>
+          <StarRating />
           {/*button*/}
-          <button className="submitBtn">Submit a rating</button>
+          <button onClick={handleClick} className="submitBtn">Submit a rating</button>
         </div>
 
         <p className="desc">{description}</p>
@@ -57,8 +73,17 @@ function Info() {
         <div className="AllergenNutrition">
         <div className="Allergens"><h3>Allergens:</h3>
         <div className="allergenIcons">
-          <img src={DairyAllergy}></img>
-          <img src={SoyAllergy}></img>
+          <img className={product.prod_allergens.includes("milk") ? "hasAllergen": "noAllergen"} src={DairyAllergy}></img>
+          <img className={product.prod_allergens.includes("soy") ? "hasAllergen": "noAllergen"} src={SoyAllergy}></img>
+          <img className={product.prod_allergens.includes("egg") ? "hasAllergen": "noAllergen"} src={EggAllergy}></img>
+          <img className={product.prod_allergens.includes("fish") ? "hasAllergen": "noAllergen"} src={FishAllergy}></img>
+          <img className={product.prod_allergens.includes("peanut") ? "hasAllergen": "noAllergen"} src={PeanutAllergy}></img>
+          <img className={product.prod_allergens.includes("pork") ? "hasAllergen": "noAllergen"} src={PorkAllergy}></img>
+          <img className={product.prod_allergens.includes("sesame") ? "hasAllergen": "noAllergen"} src={SesameAllergy}></img>
+          <img className={product.prod_allergens.includes("shellfish") ? "hasAllergen": "noAllergen"} src={ShellFishAllergy}></img>
+          <img className={product.prod_allergens.includes("treenut") ? "hasAllergen": "noAllergen"} src={TreeNutAllergy}></img>
+          <img className={product.prod_allergens.includes("wheat") ? "hasAllergen": "noAllergen"} src={WheatAllergy}></img>
+          
         </div>
         </div>
 

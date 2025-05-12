@@ -1,0 +1,26 @@
+.everydayFoodBox{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    height: 130px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .everydayFoodBox:hover{
+    background-color: #f2becd;
+  }
+  .everydayFoodBox > h3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 0.8em;
+    height: 20px;
+    text-overflow: ellipsis;
+    margin: 5px 0 5px 0;
+  }

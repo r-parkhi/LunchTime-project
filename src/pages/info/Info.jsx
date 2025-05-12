@@ -61,7 +61,7 @@ function Info() {
         {/*RATING*/}
         <div className="rating">
           {/*stars*/}
-          <StarRating />
+          <StarRating />     
           {/*button*/}
           <button onClick={handleClick} className="submitBtn">Submit a rating</button>
         </div>

@@ -20,7 +20,7 @@ export default function LargeEntree({ id }) {
       <div className="productInfo">
         <div className="productText">
           <span className="productName">{product.name}</span>
-          <span className="productRating">{product.rating_average}</span>
+          <span className="productRating">{product.rating_average}★/5</span>
         </div>
       </div>
     </NavLink>

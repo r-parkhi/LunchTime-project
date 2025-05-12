@@ -1,0 +1,9 @@
+.submitBtn {
+  color: white;
+  background-color: #cf4d6f;
+  border-radius: 10px;
+  text-align: center;
+  width: 140px;
+  margin-left: 1rem;
+  cursor: pointer;
+}

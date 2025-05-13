@@ -1,9 +1,30 @@
-.submitBtn {
+.popupStars{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 240, 240);
+  align-items: center;
+  width: 400px;
+  height: 80;
+  border-radius: 10px;
+}
+
+.openSubmitBtn {
   color: white;
   background-color: #cf4d6f;
   border-radius: 10px;
   text-align: center;
   width: 140px;
+  height: 60px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.realSubmitBtn {
+  color: white;
+  background-color: #cf4d6f;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
   margin-left: 1rem;
   cursor: pointer;
 }

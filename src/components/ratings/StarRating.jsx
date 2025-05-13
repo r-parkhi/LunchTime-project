@@ -8,6 +8,16 @@ const defaultIcon = "★";
 export default function StarRating({ productId, count, icon }) {
   const [rated, setRated] = useState(false);
   const [rating, setRating] = useState(Math.floor(count));
+  const [popupVisible, setPopupVisible] = useState(false);
+
+  const handlePopup = () => {
+    if (popupVisible == false){
+      setPopupVisible(true);
+    }
+    else{
+      setPopupVisible(false);
+    }
+  }
 
   let stars = Array(5).fill(icon || defaultIcon);
 
@@ -46,11 +56,19 @@ export default function StarRating({ productId, count, icon }) {
     } catch (err) {
       alert(err)
     }
+    setPopupVisible(false);
   }
 
   return (
     <>
-      <div>
+    <button onClick={handlePopup} className="openSubmitBtn">Submit A Rating</button>
+    
+
+      {popupVisible && (
+      <div className="popupStars">
+
+        <button onClick={handleSubmit} className="realSubmitBtn">Submit</button>
+
         {stars.map((item, index) => {
           const isActiveColor =
             (rating) &&
@@ -84,7 +102,7 @@ export default function StarRating({ productId, count, icon }) {
           );
         })}
       </div>
-      <button onClick={handleSubmit} className="submitBtn">Submit Rating</button>
+      )}
     </>
   );
 }

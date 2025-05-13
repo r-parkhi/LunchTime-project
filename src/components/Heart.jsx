@@ -1,6 +1,6 @@
 import React from "react";
-import Active from "../assets/hearts/favorited.jpg";
-import Inactive from "../assets/hearts/unfavorited.jpg";
+import Active from "../assets/hearts/favorited.png";
+import Inactive from "../assets/hearts/unfavorited.png";
 import "../pages/info/Info.css";
 
 function Heart({ active, handleChangeActive }) {

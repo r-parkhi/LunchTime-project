@@ -57,6 +57,11 @@
   margin-bottom: 30px;
 }
 
+.allergenIcons{
+  display: flex;
+  flex-direction: row;
+}
+
 .hasAllergen {
   object-fit: cover;
   width: 50px;

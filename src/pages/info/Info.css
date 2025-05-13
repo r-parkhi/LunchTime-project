@@ -41,6 +41,14 @@
   color: gold;
   font-size: 30px;
 }
+.submitBtn {
+  color: white;
+  background-color: #CF4D6F;
+  border-radius: 10px;
+  text-align: center;
+  width: 140px;
+  cursor: pointer;
+}
 
 .desc {
   line-height: 25px;

@@ -6,4 +6,8 @@
   width: 140px;
   margin-left: 1rem;
   cursor: pointer;
+  transition: 0.3s;
+}
+.submitBtn:hover{
+  background-color: #e53765;
 }

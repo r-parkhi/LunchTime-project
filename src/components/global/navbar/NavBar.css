@@ -49,6 +49,10 @@ ul.navbtns {
   color: white;
   height: 30px;
   font-size: 20px;
+  transition: 0.3s;
+}
+.loginbtn:hover{
+  background-color: #e53765;
 }
 ul.logoname {
   display: flex;

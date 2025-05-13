@@ -2,9 +2,15 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
-  margin: 1rem 3rem;
+  margin: 0.5rem 3rem;
   text-decoration: none;
   color: black;
+  padding: 5px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.specialEntree:hover{
+  background-color: #f2becd;
 }
 
 .productImage {

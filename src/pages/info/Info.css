@@ -1,93 +1,84 @@
 .page {
-    display: grid;
-    grid-template-columns: 550px auto auto;
+  display: grid;
+  grid-template-columns: 550px auto auto;
 }
 
 .image {
-    object-fit: cover;
-    width: 380px;
-    height: 380px;
-    place-self: center;
-    margin-bottom: 50px;
-    margin-top: 100px;
+  object-fit: cover;
+  width: 380px;
+  height: 380px;
+  place-self: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .name {
-    font-size: 40px;
-    font-weight: bold;
-    display: inline;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline;
 }
 
 /* FAVORITE */
 .toggleWrapper {
-    display: inline;
-    margin-left: 10px;
-    cursor: pointer;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 .active {
-    width: 50px;
+  width: 60px;
 }
 .inactive {
-    width: 50px;
+  width: 60px;
 }
 
 .rating {
-    display: grid;
-    grid-template-columns: 180px auto;
-    margin-top: -20px;
+  display: grid;
+  grid-template-columns: 220px auto;
+  margin-bottom: 40px;
 }
 .stars {
-    color: gold;
-    font-size: 30px;
-}
-.submitBtn {
-    color: black;
-    border-radius: 50px;
+  color: gold;
+  font-size: 30px;
 }
 
 .desc {
-    line-height: 20px;
-    width: 450px;
-    margin-top: -20px;
-    margin-bottom: 40px;
+  line-height: 25px;
+  width: 450px;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
-.allergenIcons{
-    display: flex;
-    flex-direction: row;
+.hasAllergen {
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
 }
-.hasAllergen{
-    object-fit: cover;
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-}
-.noAllergen{
-    height: 0px !important;
-    width: 0px !important;
-    overflow: hidden !important;
-
+.noAllergen {
+  height: 0px !important;
+  width: 0px !important;
+  overflow: hidden !important;
 }
 
 /*NUTRITION FACTS*/
 .nutritionFacts {
-    display: grid;
-    grid-template-columns: 180px 180px;
+  display: grid;
+  grid-template-columns: 180px 180px;
 }
 .nutritionFacts span {
-    display: block;
-    line-height: 16px;
+  display: block;
+  line-height: 16px;
 }
 .nutritionFacts .main {
-    font-size: 15px;
+  font-size: 15px;
 }
 .nutritionFacts .sub {
-    font-size: 12px;
-    margin-left: 15px;
+  font-size: 12px;
+  margin-left: 15px;
 }
 
 .AllergenNutrition {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }

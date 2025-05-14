@@ -9,6 +9,7 @@ import Calendar from "./pages/calendar/Calendar.jsx"
 import Help from './pages/help/Help.jsx'
 import Home from './pages/home/Home.jsx'
 import Info from "./pages/info/Info.jsx"
+import Feedback from "./pages/feedback/feedback.jsx"
 
 const client = new ApolloClient({
   uri: "https://api.isitesoftware.com/graphql",
@@ -26,6 +27,7 @@ createRoot(document.getElementById('root')).render(
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<Help />} />
             <Route path="/info/:id" element={<Info />} />
+            <Route path="/feedback" element={<Feedback />} />
           </Route>
         </Routes>
       </BrowserRouter>

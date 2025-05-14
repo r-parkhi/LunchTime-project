@@ -1,11 +1,11 @@
 import "./qna.css"
 
-function QnA({ question = "Question", answer = "Answer" }) {
+function QnA({ question = "Question", answer = <span>Answer</span> }) {
   return (
     <div>
       <h3><b>Q: {question}</b></h3>
       <b><span>A: </span></b>
-      <span>{answer}</span>
+      {answer}
     </div>
   );
 }

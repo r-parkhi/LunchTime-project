@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const Countdown = ({ targetHour, targetMinute }) => {
-  const calculateTimeLeft = () => {
+  const calculateTimeLeft = useCallback(() => {
     const now = new Date();
     const targetTime = new Date();
     targetTime.setHours(targetHour, targetMinute, 0, 0);
@@ -18,7 +18,7 @@ const Countdown = ({ targetHour, targetMinute }) => {
     };
 
     return timeLeft;
-  };
+  }, [targetHour, targetMinute]);
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
@@ -28,11 +28,11 @@ const Countdown = ({ targetHour, targetMinute }) => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [calculateTimeLeft]);
 
   return (
     <>
-        {timeLeft.hours}h {timeLeft.minutes}m
+      {timeLeft.hours}h {timeLeft.minutes}m
     </>
   );
 };

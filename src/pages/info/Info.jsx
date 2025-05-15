@@ -31,8 +31,6 @@ function Info() {
   const description = descriptions[id];
   const product = data.product;
 
-  console.log(product.prod_allergens);
-
   return (
     <div className="page">
       <img className="image" src={imageSrc} alt={product.name + " image"} />

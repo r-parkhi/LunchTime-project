@@ -52,7 +52,7 @@ function App() {
         <div style={{ border: "1px solid #ccc", padding: "10px" }}>
           <h2>Submitted Data:</h2>
           <p><strong>Feedback:</strong> {submittedData.name}</p>
-          <p><strong>Thank you!</strong></p>
+          <p><strong>Thank you! This information will help our team improve our app.</strong></p>
         </div>
       )}
       </div>

@@ -40,17 +40,15 @@ export default function Calendar() {
     }
   })
 
-  console.log(menuByDay)
-
   return (
     <>
       <div className="foodsByDay">
         <div className="everyDayFoods">
           <h2>Served Every Day</h2>
-          {menuByDay[1].slice(2, 3).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
-          {menuByDay[1].slice(3, 4).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
-          {menuByDay[1].slice(4, 5).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
-          {menuByDay[1].slice(5, 6).map(product => <div className="dailyDiv"><DailyFoodBox product={product}/></div>)}
+          {menuByDay[1].slice(2, 3).map(product => <div key={product.id} className="dailyDiv"><DailyFoodBox product={product} /></div>)}
+          {menuByDay[1].slice(3, 4).map(product => <div key={product.id} className="dailyDiv"><DailyFoodBox product={product} /></div>)}
+          {menuByDay[1].slice(4, 5).map(product => <div key={product.id} className="dailyDiv"><DailyFoodBox product={product} /></div>)}
+          {menuByDay[1].slice(5, 6).map(product => <div key={product.id} className="dailyDiv"><DailyFoodBox product={product} /></div>)}
         </div>
         <div className='calendarBox'>
           <h1 className='month'>April 2025</h1>
@@ -58,31 +56,31 @@ export default function Calendar() {
             <div className={day === 1 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(1)}</h3>
               <h2>Monday</h2>
-              {menuByDay[1].slice(0, -4).map(product => <CalendarFoodBox product={product} />)}
+              {menuByDay[1].slice(0, -4).map(product => <CalendarFoodBox key={product.id} product={product} />)}
             </div>
 
             <div className={day === 2 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(2)}</h3>
               <h2>Tuesday</h2>
-              {menuByDay[2].slice(0, -4).map(product => <CalendarFoodBox product={product} />)}
+              {menuByDay[2].slice(0, -4).map(product => <CalendarFoodBox key={product.id} product={product} />)}
             </div>
 
             <div className={day === 3 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(3)}</h3>
               <h2>Wednesday</h2>
-              {menuByDay[3].slice(0, -4).map(product => <CalendarFoodBox product={product} />)}
+              {menuByDay[3].slice(0, -4).map(product => <CalendarFoodBox key={product.id} product={product} />)}
             </div>
 
             <div className={day === 4 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(4)}</h3>
               <h2>Thursday</h2>
-              {menuByDay[4].slice(0, -4).map(product => <CalendarFoodBox product={product} />)}
+              {menuByDay[4].slice(0, -4).map(product => <CalendarFoodBox key={product.id} product={product} />)}
             </div>
 
             <div className={day === 5 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(5)}</h3>
               <h2>Friday</h2>
-              {menuByDay[5].slice(0, -4).map(product => <CalendarFoodBox product={product} />)}
+              {menuByDay[5].slice(0, -4).map(product => <CalendarFoodBox key={product.id} product={product} />)}
             </div>
           </div>
         </div>

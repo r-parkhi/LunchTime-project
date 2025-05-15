@@ -3,6 +3,7 @@ import { db } from "../firebase";
 
 export const userRatingsCollection = collection(db, "userRatings");
 export const userFavoritesCollection = collection(db, "userFavorites");
+export const userFeedbackCollection = collection(db, "userFeedbackCollection")
 
 export const addRating = async (userId, productId, rating) => {
   // First check if a rating already exists for this user and product
@@ -76,4 +77,13 @@ export const getUserItemFavoritedState = async (userId, productId) => {
   }
 
   return existingFavorite.docs[0].data().state;
+}
+
+export const addFeedback = async (userId, message) => {
+  const feedbackObj = {
+    userId,
+    message
+  }
+
+  await addDoc(userFeedbackCollection, feedbackObj)
 }

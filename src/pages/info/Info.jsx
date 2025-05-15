@@ -1,37 +1,28 @@
 import { useQuery } from "@apollo/client";
-import './Info.css';
+import React from "react";
 import { useParams } from "react-router";
-import { GET_PRODUCT } from "../../lib/queries";
 import { descriptions, food } from "../../lib/mappings";
-import React, { useState } from "react";
+import { GET_PRODUCT } from "../../lib/queries";
+import './Info.css';
 
 import Heart from "../../components/Heart.jsx";
 import StarRating from "../../components/ratings/StarRating.jsx";
 
 import DairyAllergy from "../../assets/Allergens/DairyAllergy.jpg";
-import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
 import EggAllergy from "../../assets/Allergens/EggAllergy.jpg";
 import FishAllergy from "../../assets/Allergens/FishAllergen.jpg";
 import PeanutAllergy from "../../assets/Allergens/PeanutAllergy.jpg";
 import PorkAllergy from "../../assets/Allergens/PorkAllergy.png";
 import SesameAllergy from "../../assets/Allergens/SesameAllergy.jpg";
 import ShellFishAllergy from "../../assets/Allergens/ShellFishAllergy.jpg";
+import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
 import TreeNutAllergy from "../../assets/Allergens/treenutallergy.jpg";
 import WheatAllergy from "../../assets/Allergens/WheatAllergen.jpg";
 
 
 function Info() {
   const { id } = useParams()
-  const { prod_allergens } = useParams()
-  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id, prod_allergens } });
-  const [active, setActive] = useState(false);
-
-  // heart
-  const handleChangeActive = () => {
-    setActive((previousHeart) => {
-      return !previousHeart;
-    });
-  };
+  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
@@ -50,7 +41,7 @@ function Info() {
         {/*title & heart*/}
         <div className="titleContainer">
           <p className="name">{product.name}</p>
-          <Heart active={active} handleChangeActive={handleChangeActive} />
+          <Heart productId={product.id} />
         </div>
 
         {/*RATING*/}

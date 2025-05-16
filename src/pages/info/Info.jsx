@@ -1,37 +1,28 @@
 import { useQuery } from "@apollo/client";
-import './Info.css';
+import React from "react";
 import { useParams } from "react-router";
-import { GET_PRODUCT } from "../../lib/queries";
 import { descriptions, food } from "../../lib/mappings";
-import React, { useState } from "react";
+import { GET_PRODUCT } from "../../lib/queries";
+import './Info.css';
 
 import Heart from "../../components/Heart.jsx";
 import StarRating from "../../components/ratings/StarRating.jsx";
 
 import DairyAllergy from "../../assets/Allergens/DairyAllergy.jpg";
-import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
 import EggAllergy from "../../assets/Allergens/EggAllergy.jpg";
 import FishAllergy from "../../assets/Allergens/FishAllergen.jpg";
 import PeanutAllergy from "../../assets/Allergens/PeanutAllergy.jpg";
 import PorkAllergy from "../../assets/Allergens/PorkAllergy.png";
 import SesameAllergy from "../../assets/Allergens/SesameAllergy.jpg";
 import ShellFishAllergy from "../../assets/Allergens/ShellFishAllergy.jpg";
+import SoyAllergy from "../../assets/Allergens/SoyAllergy.jpg";
 import TreeNutAllergy from "../../assets/Allergens/treenutallergy.jpg";
 import WheatAllergy from "../../assets/Allergens/WheatAllergen.jpg";
 
 
 function Info() {
   const { id } = useParams()
-  const { prod_allergens } = useParams()
-  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id, prod_allergens } });
-  const [active, setActive] = useState(false);
-
-  // heart
-  const handleChangeActive = () => {
-    setActive((previousHeart) => {
-      return !previousHeart;
-    });
-  };
+  const { loading, error, data } = useQuery(GET_PRODUCT, { variables: { id } });
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error.message}</p>
@@ -39,8 +30,6 @@ function Info() {
   const imageSrc = food[id];
   const description = descriptions[id];
   const product = data.product;
-
-  console.log(product.prod_allergens);
 
   return (
     <div className="page">
@@ -50,7 +39,7 @@ function Info() {
         {/*title & heart*/}
         <div className="titleContainer">
           <p className="name">{product.name}</p>
-          <Heart active={active} handleChangeActive={handleChangeActive} />
+          <Heart productId={product.id} />
         </div>
 
         {/*RATING*/}
@@ -84,26 +73,30 @@ function Info() {
             {/*NUTIRTION FACTS*/}
             <div className="Nutrition"><h3>Nutrition Facts:</h3>
               <div className="nutritionFacts">
-                {/*column 1*/}
+                {/*row 1*/}
                 <span className="main">Calories: {product.prod_calories}kcal</span>
-                <span className="main">Total fat: {product.prod_total_fat}g</span>
-                <span className="sub">Trans fat: {product.prod_trans_fat}g</span>
-                <span className="sub">Saturated fat: {product.prod_sat_fat}g</span>
-                <span className="main">Cholesterol: {product.prod_cholesterol}mg</span>
-                <span className="main">Sodium: {product.prod_sodium}mg</span>
-                <span className="main">Potassium: {product.prod_potassium}mg</span>
-                <span className="main">Carbohydrates: {product.prod_carbs}mg</span>
-
-                {/*column 2*/}
                 <span className="main">Dietary fiber: {product.prod_dietary_fiber}g</span>
+                {/*row 2*/}
+                <span className="main">Total fat: {product.prod_total_fat}g</span>
                 <span className="main">Total sugars: {product.sugar}g</span>
+                {/*row 3*/}
+                <span className="sub">Trans fat: {product.prod_trans_fat}g</span>
                 <span className="sub">Added sugars: {product.added_sugar}g</span>
+                {/*row 4*/}
+                <span className="sub">Saturated fat: {product.prod_sat_fat}g</span>
                 <span className="main">Protein: {product.prod_protein}g</span>
+                {/*row 5*/}
+                <span className="main">Cholesterol: {product.prod_cholesterol}mg</span>
                 <span className="main">Iron: {product.prod_iron}mg</span>
+                {/*row 6*/}
+                <span className="main">Sodium: {product.prod_sodium}mg</span>
                 <span className="main">Calcium: {product.prod_calcium}mg</span>
+                {/*row 7*/}
+                <span className="main">Potassium: {product.prod_potassium}mg</span>
                 <span className="main">Vitamin A: {product.prod_vita_iu}IU</span>
+                {/*row 8*/}                
+                <span className="main">Carbohydrates: {product.prod_carbs}mg</span>
                 <span className="main">Vitamin C: {product.prod_vitc}mg</span>
-
               </div>
             </div>
           </div>

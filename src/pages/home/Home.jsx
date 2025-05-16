@@ -6,7 +6,6 @@ import './Home.css';
 import React from 'react';
 import Countdown from "../../components/countdown";
 
-
 import Banana from "../../assets/sides/banana.jpeg";
 import Grapes from "../../assets/sides/grapes.jpeg";
 import Carrots from "../../assets/sides/carrots.webp";
@@ -18,6 +17,8 @@ import Milk from "../../assets/drinks/milk.png";
 import ChocMilk from "../../assets/drinks/chocmilk.png";
 import OrangeJuice from "../../assets/drinks/orangejuice.jpeg";
 import BerryJuice from "../../assets/drinks/berryjuice.png";
+import WaitTime from "../../components/WaitTime";
+import { getLunchTime } from "../../lib/utils";
 
 function Home() {
   const { loading, error, data } = useQuery(GET_CURRENT_MONTH_MENU);
@@ -27,14 +28,15 @@ function Home() {
 
   const todayItems = data.menuType.defaultPublishedMonth.items.filter(item => item.day === new Date().getDate());
   const todayEntrees = todayItems.filter(item => item.product.category === "Entrees")
+  const { hour, minute } = getLunchTime();
 
   return (
     <>
       <div className="infoContainer">
         <h3 className="date">{new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric' })}</h3>
         <div className="times">
-          <h3>Line wait time: <br /> <span className="units">~10 m</span></h3>
-          <h3>Lunch starts in: <br /> <span className="units"><Countdown targetHour={11} targetMinute={42} /></span></h3>
+          <WaitTime lunchHour={hour} lunchMinute={minute} />
+          <h3>Lunch starts in: <br /> <span className="units"><Countdown targetHour={hour} targetMinute={minute} /></span></h3>
         </div>
       </div>
 
@@ -61,7 +63,7 @@ function Home() {
               })}
             </div>
             <div className="daily">
-            {todayEntrees.slice(2, 3).map((item) => {
+              {todayEntrees.slice(2, 3).map((item) => {
                 return <SmallEntree key={item.product.id} id={item.product.id} />
               })}
               {todayEntrees.slice(3, 4).map((item) => {

@@ -31,7 +31,6 @@
 .inactive {
   width: 60px;
 }
-
 .rating {
   display: grid;
   grid-template-columns: 220px auto;

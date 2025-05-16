@@ -1,13 +1,38 @@
-.submitBtn {
+.popupStars{
+  grid-column: 3;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 240, 240);
+  align-items: center;
+  width: 400px;
+  height: 80;
+  border-radius: 10px;
+}
+h2{
+  width: 50px;
+  height: 60px;
+  font-size: 40px;
+  justify-self: center;
+}
+
+.openSubmitBtn {
   color: white;
   background-color: #cf4d6f;
   border-radius: 10px;
   text-align: center;
   width: 140px;
+  height: 60px;
   margin-left: 1rem;
   cursor: pointer;
-  transition: 0.3s;
+  align-self: center;
 }
-.submitBtn:hover{
-  background-color: #e53765;
+.realSubmitBtn {
+  color: white;
+  background-color: #cf4d6f;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  margin-left: 1rem;
+  cursor: pointer;
 }

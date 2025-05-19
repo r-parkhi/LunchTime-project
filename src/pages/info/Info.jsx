@@ -73,26 +73,30 @@ function Info() {
             {/*NUTIRTION FACTS*/}
             <div className="Nutrition"><h3>Nutrition Facts:</h3>
               <div className="nutritionFacts">
-                {/*column 1*/}
+                {/*row 1*/}
                 <span className="main">Calories: {product.prod_calories}kcal</span>
-                <span className="main">Total fat: {product.prod_total_fat}g</span>
-                <span className="sub">Trans fat: {product.prod_trans_fat}g</span>
-                <span className="sub">Saturated fat: {product.prod_sat_fat}g</span>
-                <span className="main">Cholesterol: {product.prod_cholesterol}mg</span>
-                <span className="main">Sodium: {product.prod_sodium}mg</span>
-                <span className="main">Potassium: {product.prod_potassium}mg</span>
-                <span className="main">Carbohydrates: {product.prod_carbs}mg</span>
-
-                {/*column 2*/}
                 <span className="main">Dietary fiber: {product.prod_dietary_fiber}g</span>
+                {/*row 2*/}
+                <span className="main">Total fat: {product.prod_total_fat}g</span>
                 <span className="main">Total sugars: {product.sugar}g</span>
+                {/*row 3*/}
+                <span className="sub">Trans fat: {product.prod_trans_fat}g</span>
                 <span className="sub">Added sugars: {product.added_sugar}g</span>
+                {/*row 4*/}
+                <span className="sub">Saturated fat: {product.prod_sat_fat}g</span>
                 <span className="main">Protein: {product.prod_protein}g</span>
+                {/*row 5*/}
+                <span className="main">Cholesterol: {product.prod_cholesterol}mg</span>
                 <span className="main">Iron: {product.prod_iron}mg</span>
+                {/*row 6*/}
+                <span className="main">Sodium: {product.prod_sodium}mg</span>
                 <span className="main">Calcium: {product.prod_calcium}mg</span>
+                {/*row 7*/}
+                <span className="main">Potassium: {product.prod_potassium}mg</span>
                 <span className="main">Vitamin A: {product.prod_vita_iu}IU</span>
+                {/*row 8*/}                
+                <span className="main">Carbohydrates: {product.prod_carbs}mg</span>
                 <span className="main">Vitamin C: {product.prod_vitc}mg</span>
-
               </div>
             </div>
           </div>

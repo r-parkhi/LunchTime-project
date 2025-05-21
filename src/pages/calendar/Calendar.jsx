@@ -51,7 +51,7 @@ export default function Calendar() {
           {menuByDay[1].slice(5, 6).map(product => <div key={product.id} className="dailyDiv"><DailyFoodBox product={product} /></div>)}
         </div>
         <div className='calendarBox'>
-          <h1 className='month'>April 2025</h1>
+          <h1 className='month'>May 2025</h1>
           <div className="daysOfWeekBox">
             <div className={day === 1 ? "dayOfWeek highlightDay" : "dayOfWeek"}>
               <h3>{getBeginOfWeek(1)}</h3>
